@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="App">
+    <div class="container">
+      <div class="row">
+        <div class="col w-7">7</div>
+        <div class="col w-6">6</div>
+        <div class="col w-5">5</div>
+        <div class="col w-5">5</div>
+        <div class="col w-4">4</div>
+        <div class="col w-4">4</div>
+        <div class="col w-3">3</div>
+        <div class="col w-4">4</div>
+        <div class="col w-3">3</div>
+        <div class="col w-3">3</div>
+        <div class="col w-2">2</div>
+        <div class="col w-3">3</div>
+        <div class="col w-2">2</div>
+        <div class="col w-2">2</div>
+        <div class="col w-1">1</div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<!-- <style lang="scss" src="./App.scss" scoped></style> -->

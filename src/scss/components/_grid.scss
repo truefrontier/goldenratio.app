@@ -1,0 +1,11 @@
+.container {
+  @apply w-full max-w-screen-xl mx-auto px-half-4;
+}
+
+.row {
+  @apply flex flex-wrap -mx-half-4;
+}
+
+.col {
+  @apply w-full px-half-4;
+}
