@@ -13,8 +13,7 @@
 }
 
 .col {
-  overflow: hidden;
-  @apply w-full;
+  @apply w-full overflow-hidden;
   @screen sm {
     @apply px-half-4;
   }
