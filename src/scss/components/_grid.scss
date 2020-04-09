@@ -1,11 +1,21 @@
 .container {
-  @apply w-full max-w-screen-xl mx-auto px-half-4;
+  @apply w-full max-w-screen-xl mx-auto;
+  @screen sm {
+    @apply px-half-4;
+  }
 }
 
 .row {
-  @apply flex flex-wrap -mx-half-4;
+  @apply flex flex-wrap;
+  @screen sm {
+    @apply -mx-half-4;
+  }
 }
 
 .col {
-  @apply w-full px-half-4;
+  overflow: hidden;
+  @apply w-full;
+  @screen sm {
+    @apply px-half-4;
+  }
 }
