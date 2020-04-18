@@ -1,4 +1,4 @@
-# learntorestaurant
+# vue-tailwind-golden
 
 ## Project setup
 ```
