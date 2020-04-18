@@ -11,20 +11,34 @@ const spacer6 = spacer * gr * gr;
 const spacer7 = spacer * gr * gr * gr;
 const spacerHuge = spacer * gr * gr * gr * gr;
 
-const halfSpacer = 1.5 / 2;
-const halfSpacerTiny = spacerTiny / 2;
-const halfSpacer1 = spacer1 / 2;
-const halfSpacer2 = spacer2 / 2;
-const halfSpacer3 = spacer3 / 2;
-const halfSpacer4 = spacer4 / 2;
-const halfSpacer5 = spacer5 / 2;
-const halfSpacer6 = spacer6 / 2;
-const halfSpacer7 = spacer7 / 2;
-const halfSpacerHuge = spacerHuge / 2;
+const spacerHalf = 1.5 / 2;
+const spacerHalfTiny = spacerTiny / 2;
+const spacerHalf1 = spacer1 / 2;
+const spacerHalf2 = spacer2 / 2;
+const spacerHalf3 = spacer3 / 2;
+const spacerHalf4 = spacer4 / 2;
+const spacerHalf5 = spacer5 / 2;
+const spacerHalf6 = spacer6 / 2;
+const spacerHalf7 = spacer7 / 2;
+const spacerHalfHuge = spacerHuge / 2;
+
+const spacerDouble = 1.5 * 2;
+const spacerDoubleTiny = spacerTiny * 2;
+const spacerDouble1 = spacer1 * 2;
+const spacerDouble2 = spacer2 * 2;
+const spacerDouble3 = spacer3 * 2;
+const spacerDouble4 = spacer4 * 2;
+const spacerDouble5 = spacer5 * 2;
+const spacerDouble6 = spacer6 * 2;
+const spacerDouble7 = spacer7 * 2;
+const spacerDoubleHuge = spacerHuge * 2;
 
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {},
+      colors: {},
+    },
     screens: {
       xs: '320px',
       sm: '640px',
@@ -45,15 +59,25 @@ module.exports = {
       7: `${spacer7}rem`,
       huge: `${spacerHuge}rem`,
 
-      'half-tiny': `${halfSpacerTiny}rem`,
-      'half-1': `${halfSpacer1}rem`,
-      'half-2': `${halfSpacer2}rem`,
-      'half-3': `${halfSpacer3}rem`,
-      'half-4': `${halfSpacer4}rem`,
-      'half-5': `${halfSpacer5}rem`,
-      'half-6': `${halfSpacer6}rem`,
-      'half-7': `${halfSpacer7}rem`,
-      'half-huge': `${halfSpacerHuge}rem`,
+      'half-tiny': `${spacerHalfTiny}rem`,
+      'half-1': `${spacerHalf1}rem`,
+      'half-2': `${spacerHalf2}rem`,
+      'half-3': `${spacerHalf3}rem`,
+      'half-4': `${spacerHalf4}rem`,
+      'half-5': `${spacerHalf5}rem`,
+      'half-6': `${spacerHalf6}rem`,
+      'half-7': `${spacerHalf7}rem`,
+      'half-huge': `${spacerHalfHuge}rem`,
+
+      'double-tiny': `${spacerDoubleTiny}rem`,
+      'double-1': `${spacerDouble1}rem`,
+      'double-2': `${spacerDouble2}rem`,
+      'double-3': `${spacerDouble3}rem`,
+      'double-4': `${spacerDouble4}rem`,
+      'double-5': `${spacerDouble5}rem`,
+      'double-6': `${spacerDouble6}rem`,
+      'double-7': `${spacerDouble7}rem`,
+      'double-huge': `${spacerDoubleHuge}rem`,
     },
     //   borderWidth: {
     lineHeight: {
@@ -66,6 +90,26 @@ module.exports = {
       6: `${spacer6}rem`,
       7: `${spacer7}rem`,
       huge: `${spacerHuge}rem`,
+
+      'half-tiny': `${spacerHalfTiny}rem`,
+      'half-1': `${spacerHalf1}rem`,
+      'half-2': `${spacerHalf2}rem`,
+      'half-3': `${spacerHalf3}rem`,
+      'half-4': `${spacerHalf4}rem`,
+      'half-5': `${spacerHalf5}rem`,
+      'half-6': `${spacerHalf6}rem`,
+      'half-7': `${spacerHalf7}rem`,
+      'half-huge': `${spacerHalfHuge}rem`,
+
+      'double-tiny': `${spacerDoubleTiny}rem`,
+      'double-1': `${spacerDouble1}rem`,
+      'double-2': `${spacerDouble2}rem`,
+      'double-3': `${spacerDouble3}rem`,
+      'double-4': `${spacerDouble4}rem`,
+      'double-5': `${spacerDouble5}rem`,
+      'double-6': `${spacerDouble6}rem`,
+      'double-7': `${spacerDouble7}rem`,
+      'double-huge': `${spacerDoubleHuge}rem`,
     },
     //   maxWidth: (theme, { breakpoints }) => ({
     width: (theme) => ({
@@ -78,7 +122,7 @@ module.exports = {
       '6': `${100 / gr}%`,
       '7': `${100}%`,
       full: `${100}%`,
-      'half-0': `${100 / gr / gr / gr / gr / gr / gr / gr / 2}%`,
+
       'half-1': `${100 / gr / gr / gr / gr / gr / gr / 2}%`,
       'half-2': `${100 / gr / gr / gr / gr / gr / 2}%`,
       'half-3': `${100 / gr / gr / gr / gr / 2}%`,
@@ -87,6 +131,34 @@ module.exports = {
       'half-6': `${100 / gr / 2}%`,
       'half-7': `${100 / 2}%`,
       half: `${100 / 2}%`,
+
+      'double-1': `${(100 / gr / gr / gr / gr / gr / gr) * 2}%`,
+      'double-2': `${(100 / gr / gr / gr / gr / gr) * 2}%`,
+      'double-3': `${(100 / gr / gr / gr / gr) * 2}%`,
+      'double-4': `${(100 / gr / gr / gr) * 2}%`,
+      'double-5': `${(100 / gr / gr) * 2}%`,
+      'double-6': `${(100 / gr) * 2}%`,
+      'double-7': `${100 * 2}%`,
+      double: `${100 * 2}%`,
+
+      '1-screen': `${100 / gr / gr / gr / gr / gr / gr}vw`,
+      '2-screen': `${100 / gr / gr / gr / gr / gr}vw`,
+      '3-screen': `${100 / gr / gr / gr / gr}vw`,
+      '4-screen': `${100 / gr / gr / gr}vw`,
+      '5-screen': `${100 / gr / gr}vw`,
+      '6-screen': `${100 / gr}vw`,
+      '7-screen': `${100}vw`,
+      screen: `${100}vw`,
+
+      'half-0-screen': `${100 / gr / gr / gr / gr / gr / gr / gr / 2}vw`,
+      'half-1-screen': `${100 / gr / gr / gr / gr / gr / gr / 2}vw`,
+      'half-2-screen': `${100 / gr / gr / gr / gr / gr / 2}vw`,
+      'half-3-screen': `${100 / gr / gr / gr / gr / 2}vw`,
+      'half-4-screen': `${100 / gr / gr / gr / 2}vw`,
+      'half-5-screen': `${100 / gr / gr / 2}vw`,
+      'half-6-screen': `${100 / gr / 2}vw`,
+      'half-7-screen': `${100 / 2}vw`,
+      'half-screen': `${100 / 2}vw`,
     }),
     //   scale: {
   },

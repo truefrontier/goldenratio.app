@@ -1,0 +1,23 @@
+$gr: 1.61803398875; // The Golden Ratio
+$spacer: 1.5rem;
+
+$spacer-tiny: $spacer / $gr / $gr / $gr / $gr;
+$spacer-1: $spacer / $gr / $gr / $gr;
+$spacer-2: $spacer / $gr / $gr;
+$spacer-3: $spacer / $gr;
+$spacer-4: $spacer;
+$spacer-5: $spacer * $gr;
+$spacer-6: $spacer * $gr * $gr;
+$spacer-7: $spacer * $gr * $gr * $gr;
+$spacer-huge: $spacer * $gr * $gr * $gr * $gr;
+
+$spacer-half: 1.5 / 2;
+$spacer-half-tiny: $spacer-tiny / 2;
+$spacer-half-1: $spacer-1 / 2;
+$spacer-half-2: $spacer-2 / 2;
+$spacer-half-3: $spacer-3 / 2;
+$spacer-half-4: $spacer-4 / 2;
+$spacer-half-5: $spacer-5 / 2;
+$spacer-half-6: $spacer-6 / 2;
+$spacer-half-7: $spacer-7 / 2;
+$spacer-half-huge: $spacer-huge / 2;
