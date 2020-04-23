@@ -1,0 +1,30 @@
+@import '../assets/scss/variables';
+
+body,
+html,
+.App {
+  height: 100%;
+}
+.Vert {
+  min-height: 100%;
+}
+
+// .App {
+//   position: relative;
+//   &:before {
+//     content: '';
+//     position: absolute;
+//     height: 100%;
+//     top: 1px;
+//     right: 0;
+//     left: 0;
+//     display: block;
+//     z-index: 10;
+//     pointer-events: none;
+//     background-image: repeating-linear-gradient(
+//       0deg,
+//       transparent 0 calc(#{$spacer} - 1px),
+//       #ee617d calc(#{$spacer} - 1px) $spacer
+//     );
+//   }
+// }
