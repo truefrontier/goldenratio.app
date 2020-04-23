@@ -1,5 +1,5 @@
 <template>
-  <div class="Vert flex">
+  <div class="Rhythm flex">
     <div class="border w-6 border-gray-500">6</div>
     <div class="border w-5 border-gray-500 flex">
       <div class="border w-6 border-gray-500">5</div>
@@ -10,8 +10,8 @@
 
 <script>
 export default {
-  name: 'Vert',
+  name: 'Rhythm',
 };
 </script>
 
-<style lang="scss" src="./Vert.scss"></style>
+<style lang="scss" src="./Rhythm.scss"></style>

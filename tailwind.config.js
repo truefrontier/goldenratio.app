@@ -1,18 +1,19 @@
 const gr = 1.61803398875; // The Golden Ratio
 const spacer = 1.5;
 
-const spacerTiny = spacer / gr / gr / gr / gr;
-const spacer1 = spacer / gr / gr / gr;
-const spacer2 = spacer / gr / gr;
-const spacer3 = spacer / gr;
-const spacer4 = spacer;
-const spacer5 = spacer * gr;
-const spacer6 = spacer * gr * gr;
-const spacer7 = spacer * gr * gr * gr;
-const spacerHuge = spacer * gr * gr * gr * gr;
+const spacer1 = spacer / gr / gr / gr / gr / gr; // 0.135269
+const spacer2 = spacer / gr / gr / gr / gr; // 0.218865
+const spacer3 = spacer / gr / gr / gr; // 0.354124
+const spacer4 = spacer / gr / gr; // 0.572973
+const spacer5 = spacer / gr; // 0.92707
+const spacer6 = spacer; // 1.5
+const spacer7 = spacer * gr; // 2.427
+const spacer8 = spacer * gr * gr; // 3.92689
+const spacer9 = spacer * gr * gr * gr; // 6.35371
+const spacer10 = spacer * gr * gr * gr * gr; // 10.2803
+const spacer11 = spacer * gr * gr * gr * gr * gr; // 16.6335
 
-const spacerHalf = 1.5 / 2;
-const spacerHalfTiny = spacerTiny / 2;
+const spacerHalf = spacer / 2;
 const spacerHalf1 = spacer1 / 2;
 const spacerHalf2 = spacer2 / 2;
 const spacerHalf3 = spacer3 / 2;
@@ -20,10 +21,12 @@ const spacerHalf4 = spacer4 / 2;
 const spacerHalf5 = spacer5 / 2;
 const spacerHalf6 = spacer6 / 2;
 const spacerHalf7 = spacer7 / 2;
-const spacerHalfHuge = spacerHuge / 2;
+const spacerHalf8 = spacer8 / 2;
+const spacerHalf9 = spacer9 / 2;
+const spacerHalf10 = spacer10 / 2;
+const spacerHalf11 = spacer11 / 2;
 
-const spacerDouble = 1.5 * 2;
-const spacerDoubleTiny = spacerTiny * 2;
+const spacerDouble = spacer * 2;
 const spacerDouble1 = spacer1 * 2;
 const spacerDouble2 = spacer2 * 2;
 const spacerDouble3 = spacer3 * 2;
@@ -31,35 +34,54 @@ const spacerDouble4 = spacer4 * 2;
 const spacerDouble5 = spacer5 * 2;
 const spacerDouble6 = spacer6 * 2;
 const spacerDouble7 = spacer7 * 2;
-const spacerDoubleHuge = spacerHuge * 2;
+const spacerDouble8 = spacer8 * 2;
+const spacerDouble9 = spacer9 * 2;
+const spacerDouble10 = spacer10 * 2;
+const spacerDouble11 = spacer11 * 2;
 
 module.exports = {
   theme: {
     extend: {
-      fontFamily: {},
-      colors: {},
+      scale: {
+        gr: gr,
+      },
+      width: (theme) => ({
+        'gr-1': `${100 / gr / gr / gr / gr / gr}%`, // 9.01792%
+        'gr-2': `${100 / gr / gr / gr / gr}%`, // 14.591%
+        'gr-3': `${100 / gr / gr / gr}%`, // 23.6083%
+        'gr-4': `${100 / gr / gr}%`, // 38.1982%
+        'gr-5': `${100 / gr}%`, // 61.8047%
+        'gr-6': `${100}%`, // 100%
+
+        'gr-half-1': `${100 / gr / gr / gr / gr / gr / 2}%`, // 4.50896%
+        'gr-half-2': `${100 / gr / gr / gr / gr / 2}%`, // 7.2955%
+        'gr-half-3': `${100 / gr / gr / gr / 2}%`, // 11.80415%
+        'gr-half-4': `${100 / gr / gr / 2}%`, // 19.0991%
+        'gr-half-5': `${100 / gr / 2}%`, // 30.90235%
+        'gr-half-6': `${100 / 2}%`, // 50%
+        'gr-half-7': `${(100 * gr) / 2}%`, // 80.9%
+
+        'gr-double-1': `${(100 / gr / gr / gr / gr / gr) * 2}%`, // 18.03584%
+        'gr-double-2': `${(100 / gr / gr / gr / gr) * 2}%`, // 29.182%
+        'gr-double-3': `${(100 / gr / gr / gr) * 2}%`, // 47.2166%
+        'gr-double-4': `${(100 / gr / gr) * 2}%`, // 76.3964%
+      }),
     },
-    screens: {
-      xs: '320px',
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-    },
+
     spacing: {
-      0: '0',
+      '0': '0',
+      '1': `${spacer1}rem`,
+      '2': `${spacer2}rem`,
+      '3': `${spacer3}rem`,
+      '4': `${spacer4}rem`,
+      '5': `${spacer5}rem`,
+      '6': `${spacer6}rem`,
+      '7': `${spacer7}rem`,
+      '8': `${spacer8}rem`,
+      '9': `${spacer9}rem`,
+      '10': `${spacer10}rem`,
+      '11': `${spacer11}rem`,
 
-      tiny: `${spacerTiny}rem`,
-      1: `${spacer1}rem`,
-      2: `${spacer2}rem`,
-      3: `${spacer3}rem`,
-      4: `${spacer4}rem`,
-      5: `${spacer5}rem`,
-      6: `${spacer6}rem`,
-      7: `${spacer7}rem`,
-      huge: `${spacerHuge}rem`,
-
-      'half-tiny': `${spacerHalfTiny}rem`,
       'half-1': `${spacerHalf1}rem`,
       'half-2': `${spacerHalf2}rem`,
       'half-3': `${spacerHalf3}rem`,
@@ -67,9 +89,11 @@ module.exports = {
       'half-5': `${spacerHalf5}rem`,
       'half-6': `${spacerHalf6}rem`,
       'half-7': `${spacerHalf7}rem`,
-      'half-huge': `${spacerHalfHuge}rem`,
+      'half-8': `${spacerHalf8}rem`,
+      'half-9': `${spacerHalf9}rem`,
+      'half-10': `${spacerHalf10}rem`,
+      'half-11': `${spacerHalf11}rem`,
 
-      'double-tiny': `${spacerDoubleTiny}rem`,
       'double-1': `${spacerDouble1}rem`,
       'double-2': `${spacerDouble2}rem`,
       'double-3': `${spacerDouble3}rem`,
@@ -77,90 +101,58 @@ module.exports = {
       'double-5': `${spacerDouble5}rem`,
       'double-6': `${spacerDouble6}rem`,
       'double-7': `${spacerDouble7}rem`,
-      'double-huge': `${spacerDoubleHuge}rem`,
+      'double-8': `${spacerDouble8}rem`,
+      'double-9': `${spacerDouble9}rem`,
+      'double-10': `${spacerDouble10}rem`,
+      'double-11': `${spacerDouble11}rem`,
     },
-    //   borderWidth: {
+
+    borderWidth: {
+      default: `${spacer1}rem`,
+      '0': '0',
+      '2': `${spacer2}rem`,
+      '3': `${spacer3}rem`,
+      '4': `${spacer4}rem`,
+      '5': `${spacer5}rem`,
+      half: `${spacerHalf1}rem`,
+      'half-2': `${spacerHalf2}rem`,
+      'half-3': `${spacerHalf3}rem`,
+      'half-4': `${spacerHalf4}rem`,
+      'half-5': `${spacerHalf5}rem`,
+    },
+
+    //   fontSize: {
+    //     xs: '0.75rem',
+    //     sm: '0.875rem',
+    //     base: '1rem',
+    //     lg: '1.125rem',
+    //     xl: '1.25rem',
+    //     '2xl': '1.5rem',
+    //     '3xl': '1.875rem',
+    //     '4xl': '2.25rem',
+    //     '5xl': '3rem',
+    //     '6xl': '4rem',
+    //   },
+
     lineHeight: {
-      tiny: `${spacerTiny}rem`,
-      1: `${spacer1}rem`,
-      2: `${spacer2}rem`,
-      3: `${spacer3}rem`,
-      4: `${spacer4}rem`,
-      5: `${spacer5}rem`,
-      6: `${spacer6}rem`,
-      7: `${spacer7}rem`,
-      huge: `${spacerHuge}rem`,
-
-      'half-tiny': `${spacerHalfTiny}rem`,
-      'half-1': `${spacerHalf1}rem`,
-      'half-2': `${spacerHalf2}rem`,
-      'half-3': `${spacerHalf3}rem`,
-      'half-4': `${spacerHalf4}rem`,
-      'half-5': `${spacerHalf5}rem`,
-      'half-6': `${spacerHalf6}rem`,
-      'half-7': `${spacerHalf7}rem`,
-      'half-huge': `${spacerHalfHuge}rem`,
-
-      'double-tiny': `${spacerDoubleTiny}rem`,
-      'double-1': `${spacerDouble1}rem`,
-      'double-2': `${spacerDouble2}rem`,
-      'double-3': `${spacerDouble3}rem`,
-      'double-4': `${spacerDouble4}rem`,
-      'double-5': `${spacerDouble5}rem`,
-      'double-6': `${spacerDouble6}rem`,
-      'double-7': `${spacerDouble7}rem`,
-      'double-huge': `${spacerDoubleHuge}rem`,
+      none: '1',
+      // tight: '1.25',
+      // snug: '1.375',
+      // normal: '1.5',
+      // relaxed: '1.625',
+      // loose: '2',
+      '1': `${spacer1}rem`,
+      '2': `${spacer2}rem`,
+      '3': `${spacer3}rem`,
+      '4': `${spacer4}rem`,
+      '5': `${spacer5}rem`,
+      '6': `${spacer6}rem`,
+      '7': `${spacer7}rem`,
+      '8': `${spacer8}rem`,
+      '9': `${spacer9}rem`,
+      '10': `${spacer10}rem`,
+      '11': `${spacer11}rem`,
     },
-    //   maxWidth: (theme, { breakpoints }) => ({
-    width: (theme) => ({
-      '0': `0`,
-      '1': `${100 / gr / gr / gr / gr / gr / gr}%`,
-      '2': `${100 / gr / gr / gr / gr / gr}%`,
-      '3': `${100 / gr / gr / gr / gr}%`,
-      '4': `${100 / gr / gr / gr}%`,
-      '5': `${100 / gr / gr}%`,
-      '6': `${100 / gr}%`,
-      '7': `${100}%`,
-      full: `${100}%`,
-
-      'half-1': `${100 / gr / gr / gr / gr / gr / gr / 2}%`,
-      'half-2': `${100 / gr / gr / gr / gr / gr / 2}%`,
-      'half-3': `${100 / gr / gr / gr / gr / 2}%`,
-      'half-4': `${100 / gr / gr / gr / 2}%`,
-      'half-5': `${100 / gr / gr / 2}%`,
-      'half-6': `${100 / gr / 2}%`,
-      'half-7': `${100 / 2}%`,
-      half: `${100 / 2}%`,
-
-      'double-1': `${(100 / gr / gr / gr / gr / gr / gr) * 2}%`,
-      'double-2': `${(100 / gr / gr / gr / gr / gr) * 2}%`,
-      'double-3': `${(100 / gr / gr / gr / gr) * 2}%`,
-      'double-4': `${(100 / gr / gr / gr) * 2}%`,
-      'double-5': `${(100 / gr / gr) * 2}%`,
-      'double-6': `${(100 / gr) * 2}%`,
-      'double-7': `${100 * 2}%`,
-      double: `${100 * 2}%`,
-
-      '1-screen': `${100 / gr / gr / gr / gr / gr / gr}vw`,
-      '2-screen': `${100 / gr / gr / gr / gr / gr}vw`,
-      '3-screen': `${100 / gr / gr / gr / gr}vw`,
-      '4-screen': `${100 / gr / gr / gr}vw`,
-      '5-screen': `${100 / gr / gr}vw`,
-      '6-screen': `${100 / gr}vw`,
-      '7-screen': `${100}vw`,
-      screen: `${100}vw`,
-
-      'half-0-screen': `${100 / gr / gr / gr / gr / gr / gr / gr / 2}vw`,
-      'half-1-screen': `${100 / gr / gr / gr / gr / gr / gr / 2}vw`,
-      'half-2-screen': `${100 / gr / gr / gr / gr / gr / 2}vw`,
-      'half-3-screen': `${100 / gr / gr / gr / gr / 2}vw`,
-      'half-4-screen': `${100 / gr / gr / gr / 2}vw`,
-      'half-5-screen': `${100 / gr / gr / 2}vw`,
-      'half-6-screen': `${100 / gr / 2}vw`,
-      'half-7-screen': `${100 / 2}vw`,
-      'half-screen': `${100 / 2}vw`,
-    }),
-    //   scale: {
   },
 
   // prefix: '',
