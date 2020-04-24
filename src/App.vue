@@ -1,8 +1,6 @@
 <template>
   <div class="App">
-    <!-- <router-link :to="{ name: 'home' }" class="mr-3 underline">Home</router-link> -->
-    <!-- <router-link :to="{ name: 'vert' }" class="mr-3 underline">Vert</router-link> -->
-    <router-view></router-view>
+    Hello
   </div>
 </template>
 

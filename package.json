@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.6"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-router": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.2.0",
+    "tailwindcss-breakpoint-helper": "^0.0.8",
+    "tailwindcss-golden-ratio": "^0.0.8",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.11"
   },
