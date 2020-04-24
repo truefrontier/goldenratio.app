@@ -1,6 +1,8 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { sans: ['Roboto', 'sans-serif'], brand: ['Manrope', 'sans-serif'] },
+    },
     screens: {
       xs: '320px',
       sm: '640px',

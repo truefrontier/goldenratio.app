@@ -7150,10 +7150,10 @@ tailwindcss-breakpoint-helper@^0.0.8:
   resolved "https://registry.yarnpkg.com/tailwindcss-breakpoint-helper/-/tailwindcss-breakpoint-helper-0.0.8.tgz#122d6d54ca78a523bd7f3b517025c30448f1d6e4"
   integrity sha512-LbHN1fF5S1lvRpSxcu6+7lrZhvlDMb1Q6ChTSqBIpTGJaE+zY+7nh3YIQphV7AiVCLUuBiZ3EOtZ9ku4P6TrpQ==
 
-tailwindcss-golden-ratio@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/tailwindcss-golden-ratio/-/tailwindcss-golden-ratio-0.0.8.tgz#d0d3b393bb6b5c0a8ec3a8e44800a9b0670ae4dd"
-  integrity sha512-PkxDuFmJM3uwP6MYCuWv4QTANHTG2ErpJG1youzGvontkHN4mI8xu6PvaWBLDSCIfEb82eYO4+kKxUWfkwxbJw==
+tailwindcss-golden-ratio@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/tailwindcss-golden-ratio/-/tailwindcss-golden-ratio-0.0.9.tgz#28e90646a86079debd62acf1d8b14367028227fb"
+  integrity sha512-FCe8Ymf/oiNLN12WX+7vfiJrEVqvGt7A8tDv+a64E7Cgz717LBZlVGUVAkJXWm2qIART6YrDF80os8xCjhqSsw==
   dependencies:
     tailwindcss "^1.3.4"
 
