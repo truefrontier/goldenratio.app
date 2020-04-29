@@ -2,7 +2,10 @@
   <div class="Header">
     <div class="container mt-7">
       <div class="flex items-center justify-between">
-        <div class="flex items-center">
+        <div
+          @click="$route.name !== 'home' ? $router.push({ name: 'home' }) : () => {}"
+          class="flex items-center cursor-pointer"
+        >
           <div class="flex mr-5">
             <div class="w-7 h-7 bg-blue-600 rounded overflow-hidden shadow-lg">
               <div class="w-6 h-6 bg-blue-400 rounded-br">
