@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <section class="mt-9">
+    <section>
       <div class="container">
         <h1 class="font-brand">
           <span class="text-lg font-extrabold text-gray-500 uppercase tracking-wider">Why</span>

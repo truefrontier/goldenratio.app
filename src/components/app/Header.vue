@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between">
         <div
           @click="$route.name !== 'home' ? $router.push({ name: 'home' }) : () => {}"
-          class="flex items-center cursor-pointer"
+          class="flex items-center cursor-pointer whitespace-no-wrap"
         >
           <div class="flex mr-5">
             <div class="w-7 h-7 bg-blue-600 rounded overflow-hidden shadow-lg">

@@ -1,5 +1,11 @@
 .container {
   @apply w-full max-w-screen-xl mx-auto px-5;
+  @screen sm {
+    @apply px-7;
+  }
+  @screen md {
+    @apply px-8;
+  }
 }
 
 .row {
