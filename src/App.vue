@@ -1,7 +1,7 @@
 <template>
   <div class="App">
     <app-header></app-header>
-    <router-view></router-view>
+    <router-view class="mt-8"></router-view>
     <app-footer></app-footer>
   </div>
 </template>

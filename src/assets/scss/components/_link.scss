@@ -4,3 +4,9 @@
     @apply border-blue-400 text-blue-500;
   }
 }
+
+.Header {
+  .router-link-exact-active {
+    @apply border-b-2 border-blue-400 text-blue-500;
+  }
+}

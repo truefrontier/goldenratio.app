@@ -16,14 +16,19 @@
           <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
           <svg-logo class="h-7 w-auto"></svg-logo>
         </div>
-        <a
-          href="https://github.com/truefrontier/tailwindcss-golden-ratio"
-          target="_blank"
-          rel="noopener"
-          class="text-gray-800 hover:text-black"
-        >
-          <i class="fa fa-github fa-lg"></i> Github
-        </a>
+        <div>
+          <router-link :to="{ name: 'calculator' }" class="py-2 ml-6 text-gray-800 hover:text-black"
+            >Calculator</router-link
+          >
+          <a
+            href="https://github.com/truefrontier/tailwindcss-golden-ratio"
+            target="_blank"
+            rel="noopener"
+            class="py-2 ml-6 text-gray-800 hover:text-black"
+          >
+            <i class="fa fa-github fa-lg"></i> Github
+          </a>
+        </div>
       </div>
     </div>
   </div>
