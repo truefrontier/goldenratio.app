@@ -1,0 +1,6 @@
+.link {
+  @apply border-b border-blue-300 text-blue-400;
+  &:hover {
+    @apply border-blue-400 text-blue-500;
+  }
+}
