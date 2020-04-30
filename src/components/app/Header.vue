@@ -1,7 +1,7 @@
 <template>
   <div class="Header">
     <div class="container mt-7">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-wrap items-center justify-between">
         <div
           @click="$route.name !== 'home' ? $router.push({ name: 'home' }) : () => {}"
           class="flex items-center cursor-pointer whitespace-no-wrap"
@@ -19,14 +19,14 @@
           <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
           <svg-logo class="h-7 w-auto"></svg-logo>
         </div>
-        <div>
-          <router-link :to="{ name: 'grid' }" class="py-2 ml-6 text-gray-800 hover:text-blue-500"
+        <div class="my-4 -ml-6">
+          <!-- <router-link :to="{ name: 'grid' }" class="py-2 ml-6 text-gray-800 hover:text-blue-500"
             >Grid</router-link
-          >
+          > -->
           <router-link
             :to="{ name: 'calculator' }"
             class="py-2 ml-6 text-gray-800 hover:text-blue-500"
-            >Calculator</router-link
+            >Golden Calculator</router-link
           >
           <a
             href="https://github.com/truefrontier/tailwindcss-golden-ratio"

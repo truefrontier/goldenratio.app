@@ -1,7 +1,41 @@
 <template>
   <div class="Calculator">
     <div class="container">
-      <div class="row mb-6">
+      <h1 class="text-3xl font-brand font-bold mb-7">Golden Calculator</h1>
+      <div class="row sm:flex-no-wrap">
+        <div>
+          <p class="font-brand font-extrabold">What is the Golden Ratio?</p>
+          <p class="mt-3">
+            You've found the Golden Ratio when the ratio between two lengths is the same as the
+            ratio between the longer of the two and the total length of the two (see image). When
+            you get to the numbers below, you can picture <i>b</i> as 1, <i>a</i> as 2, and
+            <i>a + b</i> as 3. Or if you keep going, if <i>b</i> is 2, <i>a</i> is 3, then 4 would
+            be <i>a + b</i>. You could use any three sequential numbers. That's the "magic" of the
+            Golden Ratio. <br /><br />TL;DR: The Golden Ratio is ~1.61803398875...
+          </p>
+        </div>
+        <div class="sm:w-gr-7 flex-grow sm:flex-shrink-0 text-center sm:text-left">
+          <div class="sm:ml-3 p-4 shadow-lg bg-white inline-block rounded mb-6">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Golden_ratio_line.svg/440px-Golden_ratio_line.svg.png"
+              width="220"
+              alt=""
+              class="mx-auto inline-block"
+            />
+          </div>
+        </div>
+      </div>
+      <p class="mt-6 font-brand font-extrabold">But wait... there's more!</p>
+      <p class="mt-3">
+        Not only can two segments combine to equal one bigger segment. There are all sorts of
+        amazing combinations!
+      </p>
+      <p class="mt-6">
+        This calculator helps you discover for yourself many of the various golden ratio
+        combinations that end up being equal.
+      </p>
+      <p class="mt-6"><i class="far fa-arrow-right mr-3"></i>See if you can match both sides!</p>
+      <div class="row mt-8">
         <div class="col w-gr-4">
           <div class="flex justify-center flex-wrap">
             <button
@@ -144,25 +178,25 @@
           </div>
         </div>
       </div>
-      <div class="row mb-3">
+      <div class="row mt-6">
         <div v-if="lCol.length" class="w-gr-4 flex justify-between">
           <button
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="lCol.shift()"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>Top
+            <i class="fa fa-times fa-fw mr-1"></i>First
           </button>
           <button
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="lCol = []"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>All
+            Clear
           </button>
           <button
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="lCol.pop()"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>Bottom
+            <i class="fa fa-times fa-fw mr-1"></i>Last
           </button>
         </div>
         <div class="flex-grow"></div>
@@ -171,23 +205,23 @@
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="rCol.shift()"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>Top
+            <i class="fa fa-times fa-fw mr-1"></i>First
           </button>
           <button
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="rCol = []"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>All
+            Clear
           </button>
           <button
             class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
             @click="rCol.pop()"
           >
-            <i class="fal fa-trash-alt fa-fw mr-1"></i>Bottom
+            <i class="fa fa-times fa-fw mr-1"></i>Last
           </button>
         </div>
       </div>
-      <div class="row items-top">
+      <div class="row mt-3 items-top">
         <div ref="lCol" class="bg-stripes col w-gr-4 bg-white border-3 border-black">
           <div
             v-for="spacer in lCol"
@@ -228,8 +262,12 @@
           <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ lHeight || 0 }}px
           </div>
-          <div v-if="lMatches.length && lHeight < rHeight">
-            <div class="font-bold uppercase text-sm">Try:</div>
+          <div v-if="lMatches.length && lHeight < rHeight" class="mt-5">
+            <div
+              class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
+            >
+              Try
+            </div>
             <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
           </div>
         </div>
@@ -238,8 +276,12 @@
           <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ rHeight || 0 }}px
           </div>
-          <div v-if="lMatches.length && rHeight < lHeight">
-            <div class="font-bold uppercase text-sm">Try:</div>
+          <div v-if="lMatches.length && rHeight < lHeight" class="mt-5">
+            <div
+              class="font-bold uppercase text-sm uppercase font-brand font-black tracking-widest text-gray-500 mb-3"
+            >
+              Try
+            </div>
             <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
           </div>
         </div>
@@ -313,6 +355,12 @@ export default {
         });
       },
     },
+  },
+
+  created() {
+    this.addSpacer('lCol', 6, 'blue-500');
+    this.addSpacer('lCol', 5, 'blue-300');
+    this.addSpacer('lCol', 6, 'blue-500');
   },
 
   methods: {
