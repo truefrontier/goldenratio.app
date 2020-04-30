@@ -144,6 +144,49 @@
           </div>
         </div>
       </div>
+      <div class="row mb-3">
+        <div v-if="lCol.length" class="w-gr-4 flex justify-between">
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="lCol.shift()"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>Top
+          </button>
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="lCol = []"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>All
+          </button>
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="lCol.pop()"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>Bottom
+          </button>
+        </div>
+        <div class="flex-grow"></div>
+        <div v-if="rCol.length" class="w-gr-4 flex justify-between">
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="rCol.shift()"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>Top
+          </button>
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="rCol = []"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>All
+          </button>
+          <button
+            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            @click="rCol.pop()"
+          >
+            <i class="fal fa-trash-alt fa-fw mr-1"></i>Bottom
+          </button>
+        </div>
+      </div>
       <div class="row items-top">
         <div ref="lCol" class="bg-stripes col w-gr-4 bg-white border-3 border-black">
           <div
@@ -165,7 +208,7 @@
               "
               class="leading-5 mt-5 text-red-500 border-b border-red-400 hover:text-red-400 hover:border-b border-red-300"
             >
-              reset
+              Reset All
             </button>
           </div>
           <div v-else class="-mb-6 text-gray-600 uppercase text-xs font-bold tracking-wider">
@@ -266,17 +309,18 @@ export default {
   }
 }
 .bg-stripes {
-  background-image: linear-gradient(
-    45deg,
-    #ffffff 18.75%,
-    #000000 18.75%,
-    #000000 50%,
-    #ffffff 50%,
-    #ffffff 68.75%,
-    #000000 68.75%,
-    #000000 100%
-  );
-  background-size: 11.31px 11.31px;
+  @apply bg-white;
+  // background-image: linear-gradient(
+  //   45deg,
+  //   rgba(red, 1) 18.75%,
+  //   rgba(red, 0.5) 18.75%,
+  //   rgba(red, 0.5) 50%,
+  //   rgba(red, 1) 50%,
+  //   rgba(red, 1) 68.75%,
+  //   rgba(red, 0.5) 68.75%,
+  //   rgba(red, 0.5) 100%
+  // );
+  // background-size: 11.31px 11.31px;
 }
 .shadow-inner {
   box-shadow: inset 0 -0.1px 0 0.1px rgba(0, 0, 0, 0.75);

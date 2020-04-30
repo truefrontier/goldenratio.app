@@ -10,7 +10,7 @@
           tweak to your liking:
         </p>
         <pre class="p-4 bg-gray-800 text-gray-200 rounded-lg mb-6"><code>.container {
-  @apply w-full max-w-screen-xl mx-auto px-5;
+  @apply w-full mx-auto px-5;
 }
 
 .row {
