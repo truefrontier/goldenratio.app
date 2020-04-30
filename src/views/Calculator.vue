@@ -223,21 +223,33 @@
           ></div>
         </div>
       </div>
-      <div
-        :class="[
-          'row items-top mt-3 text-center font-bold',
-          isEqual ? 'text-green-500' : 'text-red-500',
-        ]"
-      >
-        <div class="w-gr-4">{{ lHeight || 0 }}px</div>
-        <div class="flex-grow"></div>
-        <div class="w-gr-4">{{ rHeight || 0 }}px</div>
+      <div :class="['row items-top mt-3 text-center']">
+        <div class="w-gr-4">
+          <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
+            {{ lHeight || 0 }}px
+          </div>
+          <div v-if="lMatches.length && lHeight < rHeight">
+            <div class="font-bold uppercase text-sm">Try:</div>
+            <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
+          </div>
+        </div>
+        <div class="flex-grow pointer-events-none"></div>
+        <div class="w-gr-4">
+          <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
+            {{ rHeight || 0 }}px
+          </div>
+          <div v-if="lMatches.length && rHeight < lHeight">
+            <div class="font-bold uppercase text-sm">Try:</div>
+            <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { findGoldenMatches } from '@/utils/calc';
 export default {
   name: 'Calculator',
 
@@ -253,6 +265,18 @@ export default {
   computed: {
     isEqual() {
       return this.lHeight === this.rHeight;
+    },
+    lMatches() {
+      return findGoldenMatches(
+        this.lCol.reduce((arr, cur) => {
+          arr.push(cur.num);
+          return arr;
+        }, []),
+        this.rCol.reduce((arr, cur) => {
+          arr.push(cur.num);
+          return arr;
+        }, []),
+      );
     },
   },
 
