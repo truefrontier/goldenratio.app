@@ -1,4 +1,4 @@
-# vue-tailwind-golden
+# golden-ratio
 
 ## Project setup
 ```

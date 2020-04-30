@@ -16,8 +16,8 @@
           <h1 class="text-blue-600 font-bold font-brand text-4xl leading-7">
             Golden Ratio
           </h1>
-          <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
-          <svg-logo class="h-7 w-auto"></svg-logo>
+          <!-- <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
+          <svg-logo class="h-7 w-auto"></svg-logo> -->
         </div>
         <div class="my-4 -ml-6">
           <!-- <router-link :to="{ name: 'grid' }" class="py-2 ml-6 text-gray-800 hover:text-blue-500"
