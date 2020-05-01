@@ -276,7 +276,7 @@
             >
               Try
             </div>
-            <div v-for="arr in matches">{{ arr.join(', ') }}</div>
+            <div v-for="arr in matches">{{ arr }}</div>
           </div>
           <div v-else class="mt-5">
             <div
