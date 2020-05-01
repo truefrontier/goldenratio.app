@@ -284,7 +284,7 @@
             >
               Using
             </div>
-            <div v-for="arr in lColNums">
+            <div v-if="lColNums.length" v-for="arr in lColNums">
               {{ arr }}
             </div>
           </div>
@@ -308,7 +308,7 @@
             >
               Using
             </div>
-            <div v-for="arr in rColNums">
+            <div v-if="rColNums.length" v-for="arr in rColNums">
               {{ arr }}
             </div>
           </div>
