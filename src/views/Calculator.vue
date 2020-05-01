@@ -267,30 +267,50 @@
       </div>
       <div :class="['row items-top mt-3 text-center']">
         <div class="w-gr-4">
-          <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
+          <!-- <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ lHeight || 0 }}px
-          </div>
-          <div v-if="lMatches.length && lHeight < rHeight" class="mt-5">
+          </div> -->
+          <div v-if="matches.length && lHeight < rHeight" class="mt-5">
             <div
               class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
             >
               Try
             </div>
-            <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
+            <div v-for="arr in matches">{{ arr.join(', ') }}</div>
+          </div>
+          <div v-else class="mt-5">
+            <div
+              class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
+            >
+              Using
+            </div>
+            <div v-for="arr in lColNums">
+              {{ arr }}
+            </div>
           </div>
         </div>
         <div class="flex-grow pointer-events-none"></div>
         <div class="w-gr-4">
-          <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
+          <!-- <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ rHeight || 0 }}px
-          </div>
-          <div v-if="lMatches.length && rHeight < lHeight" class="mt-5">
+          </div> -->
+          <div v-if="matches.length && rHeight < lHeight" class="mt-5">
             <div
               class="font-bold uppercase text-sm uppercase font-brand font-black tracking-widest text-gray-500 mb-3"
             >
               Try
             </div>
-            <div v-for="arr in lMatches">{{ arr.join(', ') }}</div>
+            <div v-for="arr in matches">{{ arr }}</div>
+          </div>
+          <div v-else class="mt-5">
+            <div
+              class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
+            >
+              Using
+            </div>
+            <div v-for="arr in rColNums">
+              {{ arr }}
+            </div>
           </div>
         </div>
       </div>
@@ -327,10 +347,33 @@ export default {
   },
 
   computed: {
-    isEqual() {
-      return this.lHeight === this.rHeight;
+    lColNums() {
+      return [
+        this.lCol.reduce((arr, cur) => {
+          arr.push(cur.num);
+          return arr;
+        }, []),
+      ];
     },
-    lMatches() {
+
+    rColNums() {
+      return [
+        this.rCol.reduce((arr, cur) => {
+          arr.push(cur.num);
+          return arr;
+        }, []),
+      ];
+    },
+
+    isEqual() {
+      return this.foundGoldenMatches?.equal;
+    },
+
+    matches() {
+      return this.foundGoldenMatches?.matches || [];
+    },
+
+    foundGoldenMatches() {
       return findGoldenMatches(
         this.lCol.reduce((arr, cur) => {
           arr.push(cur.num);
@@ -357,7 +400,7 @@ export default {
               h += parseFloat(getComputedStyle(child)?.height);
             }
           }
-          this.lHeight = Math.ceil(h * 10) / 10;
+          this.lHeight = Math.round(h * 10) / 10;
         });
       },
     },
@@ -373,7 +416,7 @@ export default {
               h += parseFloat(getComputedStyle(child)?.height);
             }
           }
-          this.rHeight = Math.ceil(h * 10) / 10;
+          this.rHeight = Math.round(h * 10) / 10;
         });
       },
     },

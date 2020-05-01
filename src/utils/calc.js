@@ -2,7 +2,7 @@ const gr = 1.61803398875; // The Golden Ratio
 const grBase = 100000;
 
 const grArr = [
-  0,
+  null,
   grBase / gr / gr / gr / gr / gr,
   grBase / gr / gr / gr / gr,
   grBase / gr / gr / gr,
@@ -70,5 +70,5 @@ export const findGoldenMatches = (arr1, arr2 = [], arrMax = 5) => {
 
   find(arrTotal);
 
-  return result;
+  return { matches: result, equal: Math.round(arr1Total) === Math.round(arr2Total) };
 };
