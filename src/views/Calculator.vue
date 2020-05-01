@@ -39,68 +39,72 @@
         <div class="col w-gr-4">
           <div class="flex justify-center flex-wrap">
             <button
-              @click="addSpacer('lCol', 1, 'green-300')"
-              class="btn text-green-500 border-green-300"
+              @click="addSpacer('lCol', 1)"
+              :class="[`btn text-${colorsForNums[1].split('-')[0]}-500 border-${colorsForNums[1]}`]"
             >
               1
             </button>
             <button
-              @click="addSpacer('lCol', 2, 'green-500')"
-              class="btn text-green-500 border-green-500"
+              @click="addSpacer('lCol', 2)"
+              :class="[`btn text-${colorsForNums[2].split('-')[0]}-500 border-${colorsForNums[2]}`]"
             >
               2
             </button>
             <button
-              @click="addSpacer('lCol', 3, 'teal-300')"
-              class="btn text-teal-500 border-teal-300"
+              @click="addSpacer('lCol', 3)"
+              :class="[`btn text-${colorsForNums[3].split('-')[0]}-500 border-${colorsForNums[3]}`]"
             >
               3
             </button>
             <button
-              @click="addSpacer('lCol', 4, 'teal-500')"
-              class="btn text-teal-500 border-teal-500"
+              @click="addSpacer('lCol', 4)"
+              :class="[`btn text-${colorsForNums[4].split('-')[0]}-500 border-${colorsForNums[4]}`]"
             >
               4
             </button>
             <button
-              @click="addSpacer('lCol', 5, 'blue-300')"
-              class="btn text-blue-500 border-blue-300"
+              @click="addSpacer('lCol', 5)"
+              :class="[`btn text-${colorsForNums[5].split('-')[0]}-500 border-${colorsForNums[5]}`]"
             >
               5
             </button>
             <button
-              @click="addSpacer('lCol', 6, 'blue-500')"
-              class="btn text-blue-500 border-blue-500"
+              @click="addSpacer('lCol', 6)"
+              :class="[`btn text-${colorsForNums[6].split('-')[0]}-500 border-${colorsForNums[6]}`]"
             >
               6
             </button>
             <button
-              @click="addSpacer('lCol', 7, 'indigo-300')"
-              class="btn text-indigo-500 border-indigo-300"
+              @click="addSpacer('lCol', 7)"
+              :class="[`btn text-${colorsForNums[7].split('-')[0]}-500 border-${colorsForNums[7]}`]"
             >
               7
             </button>
             <button
-              @click="addSpacer('lCol', 8, 'indigo-500')"
-              class="btn text-indigo-500 border-indigo-500"
+              @click="addSpacer('lCol', 8)"
+              :class="[`btn text-${colorsForNums[8].split('-')[0]}-500 border-${colorsForNums[8]}`]"
             >
               8
             </button>
             <button
-              @click="addSpacer('lCol', 9, 'purple-300')"
-              class="btn text-purple-500 border-purple-300"
+              @click="addSpacer('lCol', 9)"
+              :class="[`btn text-${colorsForNums[9].split('-')[0]}-500 border-${colorsForNums[9]}`]"
             >
               9
             </button>
             <button
-              @click="addSpacer('lCol', 10, 'purple-500')"
-              class="btn text-purple-500 border-purple-500"
+              @click="addSpacer('lCol', 10)"
+              :class="[
+                `btn text-${colorsForNums[10].split('-')[0]}-500 border-${colorsForNums[10]}`,
+              ]"
             >
               10
             </button>
             <button
-              @click="addSpacer('lCol', 11, 'pink-300')"
-              class="btn text-pink-500 border-pink-300"
+              @click="addSpacer('lCol', 11)"
+              :class="[
+                `btn text-${colorsForNums[11].split('-')[0]}-500 border-${colorsForNums[11]}`,
+              ]"
             >
               11
             </button>
@@ -110,68 +114,72 @@
         <div class="col w-gr-4">
           <div class="flex justify-center flex-wrap">
             <button
-              @click="addSpacer('rCol', 1, 'green-300')"
-              class="btn text-green-500 border-green-300"
+              @click="addSpacer('rCol', 1)"
+              :class="[`btn text-${colorsForNums[1].split('-')[0]}-500 border-${colorsForNums[1]}`]"
             >
               1
             </button>
             <button
-              @click="addSpacer('rCol', 2, 'green-500')"
-              class="btn text-green-500 border-green-500"
+              @click="addSpacer('rCol', 2)"
+              :class="[`btn text-${colorsForNums[2].split('-')[0]}-500 border-${colorsForNums[2]}`]"
             >
               2
             </button>
             <button
-              @click="addSpacer('rCol', 3, 'teal-300')"
-              class="btn text-teal-500 border-teal-300"
+              @click="addSpacer('rCol', 3)"
+              :class="[`btn text-${colorsForNums[3].split('-')[0]}-500 border-${colorsForNums[3]}`]"
             >
               3
             </button>
             <button
-              @click="addSpacer('rCol', 4, 'teal-500')"
-              class="btn text-teal-500 border-teal-500"
+              @click="addSpacer('rCol', 4)"
+              :class="[`btn text-${colorsForNums[4].split('-')[0]}-500 border-${colorsForNums[4]}`]"
             >
               4
             </button>
             <button
-              @click="addSpacer('rCol', 5, 'blue-300')"
-              class="btn text-blue-500 border-blue-300"
+              @click="addSpacer('rCol', 5)"
+              :class="[`btn text-${colorsForNums[5].split('-')[0]}-500 border-${colorsForNums[5]}`]"
             >
               5
             </button>
             <button
-              @click="addSpacer('rCol', 6, 'blue-500')"
-              class="btn text-blue-500 border-blue-500"
+              @click="addSpacer('rCol', 6)"
+              :class="[`btn text-${colorsForNums[6].split('-')[0]}-500 border-${colorsForNums[6]}`]"
             >
               6
             </button>
             <button
-              @click="addSpacer('rCol', 7, 'indigo-300')"
-              class="btn text-indigo-500 border-indigo-300"
+              @click="addSpacer('rCol', 7)"
+              :class="[`btn text-${colorsForNums[7].split('-')[0]}-500 border-${colorsForNums[7]}`]"
             >
               7
             </button>
             <button
-              @click="addSpacer('rCol', 8, 'indigo-500')"
-              class="btn text-indigo-500 border-indigo-500"
+              @click="addSpacer('rCol', 8)"
+              :class="[`btn text-${colorsForNums[8].split('-')[0]}-500 border-${colorsForNums[8]}`]"
             >
               8
             </button>
             <button
-              @click="addSpacer('rCol', 9, 'purple-300')"
-              class="btn text-purple-500 border-purple-300"
+              @click="addSpacer('rCol', 9)"
+              :class="[`btn text-${colorsForNums[9].split('-')[0]}-500 border-${colorsForNums[9]}`]"
             >
               9
             </button>
             <button
-              @click="addSpacer('rCol', 10, 'purple-500')"
-              class="btn text-purple-500 border-purple-500"
+              @click="addSpacer('rCol', 10)"
+              :class="[
+                `btn text-${colorsForNums[10].split('-')[0]}-500 border-${colorsForNums[10]}`,
+              ]"
             >
               10
             </button>
             <button
-              @click="addSpacer('rCol', 11, 'pink-300')"
-              class="btn text-pink-500 border-pink-300"
+              @click="addSpacer('rCol', 11)"
+              :class="[
+                `btn text-${colorsForNums[11].split('-')[0]}-500 border-${colorsForNums[11]}`,
+              ]"
             >
               11
             </button>
@@ -301,6 +309,20 @@ export default {
       rCol: [],
       lHeight: 0,
       rHeight: 0,
+      colorsForNums: [
+        null,
+        'green-300',
+        'green-500',
+        'teal-300',
+        'teal-500',
+        'blue-300',
+        'blue-500',
+        'indigo-300',
+        'indigo-500',
+        'purple-300',
+        'purple-500',
+        'pink-300',
+      ],
     };
   },
 
@@ -358,13 +380,14 @@ export default {
   },
 
   created() {
-    this.addSpacer('lCol', 6, 'blue-500');
-    this.addSpacer('lCol', 5, 'blue-300');
-    this.addSpacer('lCol', 6, 'blue-500');
+    this.addSpacer('lCol', 6);
+    this.addSpacer('lCol', 5);
+    this.addSpacer('lCol', 6);
   },
 
   methods: {
-    addSpacer(col, num, color) {
+    addSpacer(col, num) {
+      let color = this.colorsForNums[num];
       let [colorKey, colorVal] = color.split('-');
       let darkerColor = `${colorKey}-${parseInt(colorVal) + 200}`;
       this[col].push({ num, bg: `bg-${color}`, border: `border-${darkerColor}`, h: `h-${num}` });
