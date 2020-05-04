@@ -448,6 +448,9 @@ export default {
   &:hover {
     @apply bg-white;
   }
+  &:focus {
+    @apply outline-none;
+  }
 }
 .bg-stripes {
   @apply bg-white;
