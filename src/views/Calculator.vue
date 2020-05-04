@@ -238,16 +238,19 @@
           ></div>
         </div>
         <div class="flex-grow col text-center">
-          <div v-if="this.lCol.length || this.rCol.length" class="py-4 -mb-9">
+          <div
+            v-if="this.lCol.length || this.rCol.length"
+            class="py-4 -mb-9 cursor-pointer"
+            @click="
+              lCol = [];
+              rCol = [];
+            "
+          >
             <div>
               <i v-if="isEqual" class="fa fa-check-circle fa-3x fa-fw text-green-500"></i>
               <i v-else class="fa fa-times-circle fa-3x fa-fw text-red-500"></i>
             </div>
             <button
-              @click="
-                lCol = [];
-                rCol = [];
-              "
               class="leading-5 mt-5 text-red-500 border-b border-red-400 hover:text-red-400 hover:border-b border-red-300"
             >
               Reset All
@@ -278,13 +281,13 @@
             </div>
             <div v-for="arr in matches">{{ arr }}</div>
           </div>
-          <div v-else class="mt-5">
+          <div v-else-if="lColNums[0].length" class="mt-5">
             <div
               class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
             >
               Using
             </div>
-            <div v-if="lColNums.length" v-for="arr in lColNums">
+            <div v-for="arr in lColNums">
               {{ arr }}
             </div>
           </div>
@@ -302,13 +305,13 @@
             </div>
             <div v-for="arr in matches">{{ arr }}</div>
           </div>
-          <div v-else class="mt-5">
+          <div v-else-if="rColNums[0].length" class="mt-5">
             <div
               class="font-bold uppercase text-sm uppercase font-brand font-black tracking-wider text-gray-500 mb-3"
             >
               Using
             </div>
-            <div v-if="rColNums.length" v-for="arr in rColNums">
+            <div v-for="arr in rColNums">
               {{ arr }}
             </div>
           </div>
