@@ -33,3 +33,22 @@ $gr-double-2: 100% / $gr / $gr / $gr / $gr * 2; // 29.182%
 $gr-double-3: 100% / $gr / $gr / $gr * 2; // 47.2166%
 $gr-double-4: 100% / $gr / $gr * 2; // 76.3964%
 
+:root {
+  --spacer-1: #{$spacer-1};
+  --spacer-2: #{$spacer-2};
+  --spacer-3: #{$spacer-3};
+  --spacer-4: #{$spacer-4};
+  --spacer-5: #{$spacer-5};
+  --spacer-6: #{$spacer-6};
+  --spacer-7: #{$spacer-7};
+  --spacer-8: #{$spacer-8};
+  --spacer-9: #{$spacer-9};
+  --spacer-10: #{$spacer-10};
+  --spacer-11: #{$spacer-11};
+  --gr-1: #{$gr-1};
+  --gr-2: #{$gr-2};
+  --gr-3: #{$gr-3};
+  --gr-4: #{$gr-4};
+  --gr-5: #{$gr-5};
+  --gr-6: #{$gr-6};
+}
