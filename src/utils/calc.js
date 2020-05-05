@@ -75,6 +75,7 @@ export const findGoldenMatches = (arr1, arr2 = [], arrMax = 5) => {
   };
 
   find(arrTotal);
+  find(arrTotal, 12, (fit) => fit + 12);
   find(arrTotal, 12, (fit) => fit + 11);
   find(arrTotal, 12, (fit) => fit + 10);
   find(arrTotal, 12, (fit) => fit + 9);
