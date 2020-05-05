@@ -397,7 +397,7 @@ export default {
         this.$nextTick(() => {
           let h = 0;
           if (val) {
-            let { children } = this.$refs.lCol;
+            let { children = [] } = this.$refs?.lCol;
             for (var i = 0; i < children.length; i++) {
               let child = children[i];
               h += parseFloat(getComputedStyle(child)?.height);
@@ -413,7 +413,7 @@ export default {
         this.$nextTick(() => {
           let h = 0;
           if (val) {
-            let { children } = this.$refs.rCol;
+            let { children = [] } = this.$refs?.rCol;
             for (var i = 0; i < children.length; i++) {
               let child = children[i];
               h += parseFloat(getComputedStyle(child)?.height);
