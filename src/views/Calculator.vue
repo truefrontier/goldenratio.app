@@ -34,7 +34,10 @@
         This calculator helps you discover for yourself many of the various golden ratio
         combinations that end up being equal.
       </p>
-      <p class="mt-6"><i class="far fa-arrow-right mr-3"></i>See if you can match both sides!</p>
+      <p class="mt-6">
+        <i class="far fa-arrow-right mr-3"></i>Click the numbers below to see if you can match both
+        sides!
+      </p>
       <div class="row mt-8">
         <div class="col w-gr-4">
           <div class="flex justify-center flex-wrap">
@@ -230,7 +233,13 @@
         </div>
       </div>
       <div class="row mt-3 items-top">
-        <div ref="lCol" class="bg-stripes col w-gr-4 bg-white border-3 border-black">
+        <div
+          ref="lCol"
+          :class="[
+            'bg-stripes col w-gr-4 bg-white border-3',
+            isEqual ? 'border-black' : 'border-white',
+          ]"
+        >
           <div
             v-for="spacer in lCol"
             :class="[spacer.bg, spacer.h, 'shadow-inner']"
@@ -256,11 +265,17 @@
               Reset All
             </button>
           </div>
-          <div v-else class="-mb-6 text-gray-600 uppercase text-xs font-bold tracking-wider">
+          <div v-else class="-mb-6 text-gray-600 uppercase text-xs font-bold tracking-wider px-3">
             Add Spacers
           </div>
         </div>
-        <div ref="rCol" class="bg-stripes col w-gr-4 bg-white border-3 border-black">
+        <div
+          ref="rCol"
+          :class="[
+            'bg-stripes col w-gr-4 bg-white border-3',
+            isEqual ? 'border-black' : 'border-white',
+          ]"
+        >
           <div
             v-for="spacer in rCol"
             :class="[spacer.bg, spacer.h, 'shadow-inner']"
