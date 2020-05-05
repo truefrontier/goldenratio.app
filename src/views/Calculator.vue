@@ -338,6 +338,8 @@
 
 <script>
 import { findGoldenMatches } from '@/utils/calc';
+import confetti from 'canvas-confetti';
+
 export default {
   name: 'Calculator',
 
@@ -422,6 +424,7 @@ export default {
         });
       },
     },
+
     rCol: {
       deep: true,
       handler(val, oldVal) {
@@ -437,6 +440,12 @@ export default {
           this.rHeight = Math.round(h * 10) / 10;
         });
       },
+    },
+
+    isEqual(val) {
+      if (val) {
+        confetti();
+      }
     },
   },
 
