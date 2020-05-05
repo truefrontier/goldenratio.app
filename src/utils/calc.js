@@ -58,7 +58,7 @@ export const findGoldenMatches = (arr1, arr2 = [], arrMax = 5) => {
       // store foundArr accordingly
       let [nextMax] = foundArr;
       if (foundTotal && Math.round(foundTotal) === Math.round(arrTotal)) {
-        foundArr.sort().reverse();
+        foundArr.sort((a, b) => a - b).reverse();
         let foundArrStr = foundArr.join(',');
         if (!resultsCheck.includes(foundArrStr)) {
           results.push(foundArr);
