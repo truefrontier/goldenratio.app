@@ -1,54 +1,54 @@
-$gr: 1.61803398875; // The Golden Ratio
-$spacer-base: 1.5rem;
+// $gr: 1.61803398875; // The Golden Ratio
+// $spacer-base: 1.5rem;
 
-$spacer-1: $spacer-base / $gr / $gr / $gr / $gr / $gr; // 0.135269rem
-$spacer-2: $spacer-base / $gr / $gr / $gr / $gr; // 0.218865rem
-$spacer-3: $spacer-base / $gr / $gr / $gr; // 0.354124rem
-$spacer-4: $spacer-base / $gr / $gr; // 0.572973rem
-$spacer-5: $spacer-base / $gr; // 0.92707rem
-$spacer-6: $spacer-base; // 1.5rem
-$spacer-7: $spacer-base * $gr; // 2.427rem
-$spacer-8: $spacer-base * $gr * $gr; // 3.92689rem
-$spacer-9: $spacer-base * $gr * $gr * $gr; // 6.35371rem
-$spacer-10: $spacer-base * $gr * $gr * $gr * $gr; // 10.2803rem
-$spacer-11: $spacer-base * $gr * $gr * $gr * $gr * $gr; // 16.6335rem
+// $spacer-1: $spacer-base / $gr / $gr / $gr / $gr / $gr; // 0.135269rem
+// $spacer-2: $spacer-base / $gr / $gr / $gr / $gr; // 0.218865rem
+// $spacer-3: $spacer-base / $gr / $gr / $gr; // 0.354124rem
+// $spacer-4: $spacer-base / $gr / $gr; // 0.572973rem
+// $spacer-5: $spacer-base / $gr; // 0.92707rem
+// $spacer-6: $spacer-base; // 1.5rem
+// $spacer-7: $spacer-base * $gr; // 2.427rem
+// $spacer-8: $spacer-base * $gr * $gr; // 3.92689rem
+// $spacer-9: $spacer-base * $gr * $gr * $gr; // 6.35371rem
+// $spacer-10: $spacer-base * $gr * $gr * $gr * $gr; // 10.2803rem
+// $spacer-11: $spacer-base * $gr * $gr * $gr * $gr * $gr; // 16.6335rem
 
-$gr-1: 100% / $gr / $gr / $gr / $gr / $gr; // 9.01792%
-$gr-2: 100% / $gr / $gr / $gr / $gr; // 14.591%
-$gr-3: 100% / $gr / $gr / $gr; // 23.6083%
-$gr-4: 100% / $gr / $gr; // 38.1982%
-$gr-5: 100% / $gr; // 61.8047%
-$gr-6: 100%; // 100%
+// $gr-1: 100% / $gr / $gr / $gr / $gr / $gr; // 9.01792%
+// $gr-2: 100% / $gr / $gr / $gr / $gr; // 14.591%
+// $gr-3: 100% / $gr / $gr / $gr; // 23.6083%
+// $gr-4: 100% / $gr / $gr; // 38.1982%
+// $gr-5: 100% / $gr; // 61.8047%
+// $gr-6: 100%; // 100%
 
-$gr-half-1: 100% / $gr / $gr / $gr / $gr / $gr / 2; // 4.50896%
-$gr-half-2: 100% / $gr / $gr / $gr / $gr / 2; // 7.2955%
-$gr-half-3: 100% / $gr / $gr / $gr / 2; // 11.80415%
-$gr-half-4: 100% / $gr / $gr / 2; // 19.0991%
-$gr-half-5: 100% / $gr / 2; // 30.90235%
-$gr-half-6: 100% / 2; // 50%
-$gr-half-7: 100% * $gr / 2; // 80.9%
+// $gr-half-1: 100% / $gr / $gr / $gr / $gr / $gr / 2; // 4.50896%
+// $gr-half-2: 100% / $gr / $gr / $gr / $gr / 2; // 7.2955%
+// $gr-half-3: 100% / $gr / $gr / $gr / 2; // 11.80415%
+// $gr-half-4: 100% / $gr / $gr / 2; // 19.0991%
+// $gr-half-5: 100% / $gr / 2; // 30.90235%
+// $gr-half-6: 100% / 2; // 50%
+// $gr-half-7: 100% * $gr / 2; // 80.9%
 
-$gr-double-1: 100% / $gr / $gr / $gr / $gr / $gr * 2; // 18.03584%
-$gr-double-2: 100% / $gr / $gr / $gr / $gr * 2; // 29.182%
-$gr-double-3: 100% / $gr / $gr / $gr * 2; // 47.2166%
-$gr-double-4: 100% / $gr / $gr * 2; // 76.3964%
+// $gr-double-1: 100% / $gr / $gr / $gr / $gr / $gr * 2; // 18.03584%
+// $gr-double-2: 100% / $gr / $gr / $gr / $gr * 2; // 29.182%
+// $gr-double-3: 100% / $gr / $gr / $gr * 2; // 47.2166%
+// $gr-double-4: 100% / $gr / $gr * 2; // 76.3964%
 
-:root {
-  --spacer-1: #{$spacer-1};
-  --spacer-2: #{$spacer-2};
-  --spacer-3: #{$spacer-3};
-  --spacer-4: #{$spacer-4};
-  --spacer-5: #{$spacer-5};
-  --spacer-6: #{$spacer-6};
-  --spacer-7: #{$spacer-7};
-  --spacer-8: #{$spacer-8};
-  --spacer-9: #{$spacer-9};
-  --spacer-10: #{$spacer-10};
-  --spacer-11: #{$spacer-11};
-  --gr-1: #{$gr-1};
-  --gr-2: #{$gr-2};
-  --gr-3: #{$gr-3};
-  --gr-4: #{$gr-4};
-  --gr-5: #{$gr-5};
-  --gr-6: #{$gr-6};
-}
+// :root {
+//   --spacer-1: #{$spacer-1};
+//   --spacer-2: #{$spacer-2};
+//   --spacer-3: #{$spacer-3};
+//   --spacer-4: #{$spacer-4};
+//   --spacer-5: #{$spacer-5};
+//   --spacer-6: #{$spacer-6};
+//   --spacer-7: #{$spacer-7};
+//   --spacer-8: #{$spacer-8};
+//   --spacer-9: #{$spacer-9};
+//   --spacer-10: #{$spacer-10};
+//   --spacer-11: #{$spacer-11};
+//   --gr-1: #{$gr-1};
+//   --gr-2: #{$gr-2};
+//   --gr-3: #{$gr-3};
+//   --gr-4: #{$gr-4};
+//   --gr-5: #{$gr-5};
+//   --gr-6: #{$gr-6};
+// }
