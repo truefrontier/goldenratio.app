@@ -388,6 +388,48 @@
           </p>
         </div>
       </div>
+      <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
+        <div class="bg-gray-300 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-300 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-300 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-300 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+        <div class="bg-gray-400 py-3 w-gr-half-2">half-2</div>
+      </div>
+      <div class="row px-5 -mx-5 -mt-2 mb-4">
+        <div>
+          <p class="text-left text-xs pb-1">
+            <code>.justify-between</code>
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4 bg-white mb-4 px-5 -mx-5 justify-between">
+        <div class="bg-gray-300 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-300 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-300 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-300 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+        <div class="bg-gray-400 py-3">1</div>
+      </div>
+      <div class="row px-5 -mx-5 -mt-2 mb-4">
+        <div>
+          <p class="text-left text-xs pb-1">
+            <code>.justify-between</code>
+          </p>
+        </div>
+      </div>
       <!--
       <div class="row px-5 -mx-5 items-start">
         <div class="w-gr-half-7">

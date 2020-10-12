@@ -20,6 +20,11 @@ const routes = [
     name: 'grid',
     component: () => import(/* webpackChunkName: "grid" */ '../views/Grid.vue'),
   },
+  {
+    path: '/spacing',
+    name: 'spacing',
+    component: () => import(/* webpackChunkName: "spacing" */ '../views/Spacing.vue'),
+  },
 ];
 
 const router = new VueRouter({
