@@ -7,15 +7,13 @@
           class="flex items-center cursor-pointer whitespace-no-wrap"
         >
           <div class="flex mr-5">
-            <div class="w-7 h-7 bg-blue-600 rounded overflow-hidden shadow-lg">
-              <div class="w-6 h-6 bg-blue-400 rounded-br">
-                <div class="w-5 h-5 bg-blue-200 rounded-br-sm"></div>
+            <div class="w-7 h-7 bg-blue-700 rounded overflow-hidden shadow-lg">
+              <div class="w-6 h-6 bg-blue-500 rounded-br">
+                <div class="w-5 h-5 bg-blue-400 rounded-br-sm"></div>
               </div>
             </div>
           </div>
-          <h1 class="text-blue-600 font-bold font-brand text-4xl leading-7">
-            Golden Ratio
-          </h1>
+          <h1 class="text-blue-600 font-bold font-brand text-4xl leading-7">Golden Ratio</h1>
           <!-- <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
           <svg-logo class="h-7 w-auto"></svg-logo> -->
         </div>

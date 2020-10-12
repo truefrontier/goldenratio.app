@@ -21,7 +21,7 @@
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.4.0",
     "tailwindcss-breakpoint-helper": "^0.0.8",
-    "tailwindcss-golden-ratio": "^0.1",
+    "tailwindcss-golden-ratio": "^0.3",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.11"
   },

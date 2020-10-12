@@ -14,7 +14,7 @@
             Golden Ratio. <br /><br />TL;DR: The Golden Ratio is ~1.61803398875...
           </p>
         </div>
-        <div class="sm:w-gr-7 flex-grow sm:flex-shrink-0 text-center sm:text-left">
+        <div class="sm:w-grp-3 flex-grow sm:flex-shrink-0 text-center sm:text-left">
           <div class="sm:ml-3 p-4 shadow-lg bg-white inline-block rounded mb-6">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Golden_ratio_line.svg/440px-Golden_ratio_line.svg.png"
@@ -39,150 +39,142 @@
         sides!
       </p>
       <div class="row mt-8">
-        <div class="col w-gr-4">
+        <div class="col w-grp-4">
           <div class="flex justify-center flex-wrap">
             <button
               @click="addSpacer('lCol', 1)"
-              :class="[`btn text-${colorsForNums[1].split('-')[0]}-500 border-${colorsForNums[1]}`]"
+              :class="[`btn ${textColors[1]} ${borderColors[1]}`]"
             >
               1
             </button>
             <button
               @click="addSpacer('lCol', 2)"
-              :class="[`btn text-${colorsForNums[2].split('-')[0]}-500 border-${colorsForNums[2]}`]"
+              :class="[`btn ${textColors[2]} ${borderColors[2]}`]"
             >
               2
             </button>
             <button
               @click="addSpacer('lCol', 3)"
-              :class="[`btn text-${colorsForNums[3].split('-')[0]}-500 border-${colorsForNums[3]}`]"
+              :class="[`btn ${textColors[3]} ${borderColors[3]}`]"
             >
               3
             </button>
             <button
               @click="addSpacer('lCol', 4)"
-              :class="[`btn text-${colorsForNums[4].split('-')[0]}-500 border-${colorsForNums[4]}`]"
+              :class="[`btn ${textColors[4]} ${borderColors[4]}`]"
             >
               4
             </button>
             <button
               @click="addSpacer('lCol', 5)"
-              :class="[`btn text-${colorsForNums[5].split('-')[0]}-500 border-${colorsForNums[5]}`]"
+              :class="[`btn ${textColors[5]} ${borderColors[5]}`]"
             >
               5
             </button>
             <button
               @click="addSpacer('lCol', 6)"
-              :class="[`btn text-${colorsForNums[6].split('-')[0]}-500 border-${colorsForNums[6]}`]"
+              :class="[`btn ${textColors[6]} ${borderColors[6]}`]"
             >
               6
             </button>
             <button
               @click="addSpacer('lCol', 7)"
-              :class="[`btn text-${colorsForNums[7].split('-')[0]}-500 border-${colorsForNums[7]}`]"
+              :class="[`btn ${textColors[7]} ${borderColors[7]}`]"
             >
               7
             </button>
             <button
               @click="addSpacer('lCol', 8)"
-              :class="[`btn text-${colorsForNums[8].split('-')[0]}-500 border-${colorsForNums[8]}`]"
+              :class="[`btn ${textColors[8]} ${borderColors[8]}`]"
             >
               8
             </button>
             <button
               @click="addSpacer('lCol', 9)"
-              :class="[`btn text-${colorsForNums[9].split('-')[0]}-500 border-${colorsForNums[9]}`]"
+              :class="[`btn ${textColors[9]} ${borderColors[9]}`]"
             >
               9
             </button>
             <button
               @click="addSpacer('lCol', 10)"
-              :class="[
-                `btn text-${colorsForNums[10].split('-')[0]}-500 border-${colorsForNums[10]}`,
-              ]"
+              :class="[`btn ${textColors[10]} ${borderColors[10]}`]"
             >
               10
             </button>
             <button
               @click="addSpacer('lCol', 11)"
-              :class="[
-                `btn text-${colorsForNums[11].split('-')[0]}-500 border-${colorsForNums[11]}`,
-              ]"
+              :class="[`btn ${textColors[11]} ${borderColors[11]}`]"
             >
               11
             </button>
           </div>
         </div>
         <div class="flex-grow col">&nbsp;</div>
-        <div class="col w-gr-4">
+        <div class="col w-grp-4">
           <div class="flex justify-center flex-wrap">
             <button
               @click="addSpacer('rCol', 1)"
-              :class="[`btn text-${colorsForNums[1].split('-')[0]}-500 border-${colorsForNums[1]}`]"
+              :class="[`btn ${textColors[1]} ${borderColors[1]}`]"
             >
               1
             </button>
             <button
               @click="addSpacer('rCol', 2)"
-              :class="[`btn text-${colorsForNums[2].split('-')[0]}-500 border-${colorsForNums[2]}`]"
+              :class="[`btn ${textColors[2]} ${borderColors[2]}`]"
             >
               2
             </button>
             <button
               @click="addSpacer('rCol', 3)"
-              :class="[`btn text-${colorsForNums[3].split('-')[0]}-500 border-${colorsForNums[3]}`]"
+              :class="[`btn ${textColors[3]} ${borderColors[3]}`]"
             >
               3
             </button>
             <button
               @click="addSpacer('rCol', 4)"
-              :class="[`btn text-${colorsForNums[4].split('-')[0]}-500 border-${colorsForNums[4]}`]"
+              :class="[`btn ${textColors[4]} ${borderColors[4]}`]"
             >
               4
             </button>
             <button
               @click="addSpacer('rCol', 5)"
-              :class="[`btn text-${colorsForNums[5].split('-')[0]}-500 border-${colorsForNums[5]}`]"
+              :class="[`btn ${textColors[5]} ${borderColors[5]}`]"
             >
               5
             </button>
             <button
               @click="addSpacer('rCol', 6)"
-              :class="[`btn text-${colorsForNums[6].split('-')[0]}-500 border-${colorsForNums[6]}`]"
+              :class="[`btn ${textColors[6]} ${borderColors[6]}`]"
             >
               6
             </button>
             <button
               @click="addSpacer('rCol', 7)"
-              :class="[`btn text-${colorsForNums[7].split('-')[0]}-500 border-${colorsForNums[7]}`]"
+              :class="[`btn ${textColors[7]} ${borderColors[7]}`]"
             >
               7
             </button>
             <button
               @click="addSpacer('rCol', 8)"
-              :class="[`btn text-${colorsForNums[8].split('-')[0]}-500 border-${colorsForNums[8]}`]"
+              :class="[`btn ${textColors[8]} ${borderColors[8]}`]"
             >
               8
             </button>
             <button
               @click="addSpacer('rCol', 9)"
-              :class="[`btn text-${colorsForNums[9].split('-')[0]}-500 border-${colorsForNums[9]}`]"
+              :class="[`btn ${textColors[9]} ${borderColors[9]}`]"
             >
               9
             </button>
             <button
               @click="addSpacer('rCol', 10)"
-              :class="[
-                `btn text-${colorsForNums[10].split('-')[0]}-500 border-${colorsForNums[10]}`,
-              ]"
+              :class="[`btn ${textColors[10]} ${borderColors[10]}`]"
             >
               10
             </button>
             <button
               @click="addSpacer('rCol', 11)"
-              :class="[
-                `btn text-${colorsForNums[11].split('-')[0]}-500 border-${colorsForNums[11]}`,
-              ]"
+              :class="[`btn ${textColors[11]} ${borderColors[11]}`]"
             >
               11
             </button>
@@ -190,42 +182,42 @@
         </div>
       </div>
       <div class="row mt-6">
-        <div v-if="lCol.length" class="w-gr-4 flex justify-between">
+        <div v-if="lCol.length" class="w-grp-4 flex justify-between">
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="lCol.shift()"
           >
             <i class="fa fa-times fa-fw mr-1"></i>First
           </button>
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="lCol = []"
           >
             Clear
           </button>
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="lCol.pop()"
           >
             <i class="fa fa-times fa-fw mr-1"></i>Last
           </button>
         </div>
         <div class="flex-grow"></div>
-        <div v-if="rCol.length" class="w-gr-4 flex justify-between">
+        <div v-if="rCol.length" class="w-grp-4 flex justify-between">
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="rCol.shift()"
           >
             <i class="fa fa-times fa-fw mr-1"></i>First
           </button>
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="rCol = []"
           >
             Clear
           </button>
           <button
-            class="text-xs text-red-500 hover:text-red-700 uppercase font-bold tracking-wider"
+            class="text-xs text-red-700 hover:text-red-600 uppercase font-bold tracking-wider"
             @click="rCol.pop()"
           >
             <i class="fa fa-times fa-fw mr-1"></i>Last
@@ -236,7 +228,7 @@
         <div
           ref="lCol"
           :class="[
-            'bg-stripes col w-gr-4 bg-white border-3',
+            'bg-stripes col w-grp-4 bg-white border-3',
             isEqual ? 'border-black' : 'border-white',
           ]"
         >
@@ -256,23 +248,23 @@
             "
           >
             <div>
-              <i v-if="isEqual" class="fa fa-check-circle fa-3x fa-fw text-green-500"></i>
-              <i v-else class="fa fa-times-circle fa-3x fa-fw text-red-500"></i>
+              <i v-if="isEqual" class="fa fa-check-circle fa-3x fa-fw text-green-700"></i>
+              <i v-else class="fa fa-times-circle fa-3x fa-fw text-red-700 hover:text-red-600"></i>
             </div>
             <button
-              class="leading-5 mt-5 text-red-500 border-b border-red-400 hover:text-red-400 hover:border-b border-red-300"
+              class="leading-5 mt-5 text-red-700 border-b border-red-500 hover:text-red-600 hover:border-b border-red-500"
             >
               Reset All
             </button>
           </div>
-          <div v-else class="-mb-6 text-gray-600 uppercase text-xs font-bold tracking-wider px-3">
+          <div v-else class="-mb-6 text-gray-700 uppercase text-xs font-bold tracking-wider px-3">
             Add Spacers
           </div>
         </div>
         <div
           ref="rCol"
           :class="[
-            'bg-stripes col w-gr-4 bg-white border-3',
+            'bg-stripes col w-grp-4 bg-white border-3',
             isEqual ? 'border-black' : 'border-white',
           ]"
         >
@@ -284,7 +276,7 @@
         </div>
       </div>
       <div :class="['row items-top mt-3 text-center']">
-        <div class="w-gr-4">
+        <div class="w-grp-4">
           <!-- <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ lHeight || 0 }}px
           </div> -->
@@ -308,7 +300,7 @@
           </div>
         </div>
         <div class="flex-grow pointer-events-none"></div>
-        <div class="w-gr-4">
+        <div class="w-grp-4">
           <!-- <div :class="['font-bold', isEqual ? 'text-green-500' : 'text-red-500']">
             {{ rHeight || 0 }}px
           </div> -->
@@ -349,19 +341,47 @@ export default {
       rCol: [],
       lHeight: 0,
       rHeight: 0,
-      colorsForNums: [
+      borderColors: [
         null,
-        'green-300',
-        'green-500',
-        'teal-300',
-        'teal-500',
-        'blue-300',
-        'blue-500',
-        'indigo-300',
-        'indigo-500',
-        'purple-300',
-        'purple-500',
-        'pink-300',
+        'border-green-500',
+        'border-green-700',
+        'border-teal-500',
+        'border-teal-700',
+        'border-blue-500',
+        'border-blue-700',
+        'border-purple-500',
+        'border-purple-700',
+        'border-pink-500',
+        'border-pink-700',
+        'border-orange-500',
+      ],
+      textColors: [
+        null,
+        'text-green-700',
+        'text-green-700',
+        'text-teal-700',
+        'text-teal-700',
+        'text-blue-700',
+        'text-blue-700',
+        'text-purple-700',
+        'text-purple-700',
+        'text-pink-700',
+        'text-pink-700',
+        'text-orange-700',
+      ],
+      bgColors: [
+        null,
+        'bg-green-400',
+        'bg-green-500',
+        'bg-teal-400',
+        'bg-teal-500',
+        'bg-blue-400',
+        'bg-blue-500',
+        'bg-purple-400',
+        'bg-purple-500',
+        'bg-pink-400',
+        'bg-pink-500',
+        'bg-orange-400',
       ],
     };
   },
@@ -457,10 +477,9 @@ export default {
 
   methods: {
     addSpacer(col, num) {
-      let color = this.colorsForNums[num];
-      let [colorKey, colorVal] = color.split('-');
-      let darkerColor = `${colorKey}-${parseInt(colorVal) + 200}`;
-      this[col].push({ num, bg: `bg-${color}`, border: `border-${darkerColor}`, h: `h-${num}` });
+      let bg = this.bgColors[num];
+      let border = this.borderColors[num];
+      this[col].push({ num, bg, border, h: `h-${num}` });
     },
   },
 };

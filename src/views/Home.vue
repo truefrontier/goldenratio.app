@@ -3,7 +3,7 @@
     <section>
       <div class="container">
         <h1 class="font-brand">
-          <span class="text-lg font-extrabold text-gray-500 uppercase tracking-wider">Why</span>
+          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">Why</span>
           <span class="leading-7 text-3xl font-bold block">Spacing &amp; Proportions Matter</span>
         </h1>
         <p class="mt-7">Coming soon...</p>
@@ -12,7 +12,7 @@
     <section class="mt-9">
       <div class="container">
         <h1 class="font-brand">
-          <span class="text-lg font-extrabold text-gray-500 uppercase tracking-wider">What</span>
+          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">What</span>
           <span class="leading-7 text-3xl font-bold block">The Golden Ratio</span>
         </h1>
         <p class="mt-7">Coming soon...</p>
@@ -21,7 +21,7 @@
     <section class="mt-9">
       <div class="container">
         <h1 class="font-brand">
-          <span class="text-lg font-extrabold text-gray-500 uppercase tracking-wider">How</span>
+          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">How</span>
           <span class="leading-7 text-3xl font-bold block">To Get Started</span>
         </h1>
         <p class="mt-7">Coming soon...</p>
