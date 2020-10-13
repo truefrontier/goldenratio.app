@@ -21,20 +21,23 @@
           numbers maintains the ratio to the next. Let me explain:
         </p>
         <p class="mt-7">
-          For example, the Golden Ratio any number is that number multiplied by 1.618... So the
-          Golden Ratio from 1 is 1 x 1.618 = 1.618. The Golden Ratio of 1.618 is 1.618 x 1.618 =
-          2.618. The next would be 2.617924 x 1.618 = 4.236. Now here's the magic behind the Golden
-          ratio: so far our sequence of numbers is 1, 1.618, 2.618, and 4.236. When you add the two
-          previous numbers together, it equals the next number, so 1 + 1.618 = 2.618 and 1.618 +
-          2.618 = 4.236. This pattern continues forever and is unique only to the Golden Ratio.
+          To get the Golden Ratio, you take any number and multiply it by 1.618... Take 1 for
+          example: 1 x 1.618 = 1.618. If you keep going from there, 1.618 x 1.618 = 2.618. Then you
+          can do 2.617924 x 1.618 = 4.236. Now here's the magic behind the Golden ratio: so far our
+          sequence of numbers is 1, 1.618, 2.618, and 4.236.
+          <i>When you add the two previous numbers together, it equals the next number.</i> So 1 +
+          1.618 = 2.618. The same is true for 1.618 + 2.618 = 4.236. This pattern continues forever
+          and is unique only to the Golden Ratio. In more mathematical terms: the ratio between two
+          lengths is the same as the ratio between the longer of the two and the total length of the
+          two. Or, <i>a</i> is to <i>b</i> as <i>b</i> is to <i>c</i> where <i>c = a + b</i>.
         </p>
-        <p class="mt-7"><strong>But what's the big deal?</strong></p>
+        <p class="mt-7 text-lg"><strong>Why is the Golden Ratio important?</strong></p>
         <p class="mt-7">
-          It just so happens that we can see this ratio occurring in nature all over the place, and
-          as such we find this subconsciously visually pleasing. Things with the Golden Ratio have
-          an inherent beauty and and often unexplained asymmetric balance that just feels right. Our
-          eyes can see the Golden Ratio without our brain registering that that is why is feels
-          balanced and beautiful.
+          It just so happens that we can observe this ratio in nature all over the place, and as
+          such we can subconsiously find it visually pleasing. Things with the Golden Ratio have an
+          inherent beauty and an often unexplained asymmetric balance that just feels right. Our
+          eyes see it and likes it, but our brain might not register that it's the the Golden Ratio
+          we are seeing.
         </p>
         <p class="mt-7">
           So, with the tools provided below, we can more easily implement these nature-driven design
