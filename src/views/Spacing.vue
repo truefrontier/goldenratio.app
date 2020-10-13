@@ -186,7 +186,7 @@
           </tr>
           <tr>
             <td class="py-3 px-4 border-b border-gray-300">
-              double-<code class="text-sm bg-white px-3 py-2 rounded">n - 1</code>
+              double-<code class="text-sm bg-gray-200 px-3 py-2 rounded">n - 1</code>
             </td>
             <td class="py-3 px-4 border-b border-gray-300">...</td>
             <td class="py-3 px-4 border-b border-gray-300">...</td>
@@ -194,7 +194,7 @@
           </tr>
           <tr>
             <td class="py-3 px-4 border-b border-gray-300">
-              half-<code class="text-sm bg-white px-3 py-2 rounded">n + 2</code>
+              half-<code class="text-sm bg-gray-200 px-3 py-2 rounded">n + 2</code>
             </td>
             <td class="py-3 px-4 border-b border-gray-300">...</td>
             <td class="py-3 px-4 border-b border-gray-300">...</td>
