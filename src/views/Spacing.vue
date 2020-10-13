@@ -1,6 +1,9 @@
 <template>
   <div class="Spacing">
     <section class="container text-left text-gray-600 leading-6">
+      <h1 class="font-brand font-extrabold text-4xl mb-7 text-gray-800 leading-7">
+        The Golden Spacing Cheatsheet
+      </h1>
       <table class="w-full bg-white">
         <thead>
           <th class="py-3 px-4 bg-gray-200 text-gray-700"><strong>Name</strong></th>

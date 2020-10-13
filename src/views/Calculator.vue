@@ -1,7 +1,9 @@
 <template>
   <div class="Calculator">
     <div class="container">
-      <h1 class="text-3xl font-brand font-bold mb-7">Golden Calculator</h1>
+      <h1 class="font-brand font-extrabold text-4xl mb-7 text-gray-800 leading-7">
+        The Golden Calculator
+      </h1>
       <div class="row sm:flex-no-wrap">
         <div>
           <p class="font-brand font-extrabold">What is the Golden Ratio?</p>
