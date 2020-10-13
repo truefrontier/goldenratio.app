@@ -18,14 +18,21 @@
           <svg-logo class="h-7 w-auto"></svg-logo> -->
         </div>
         <div class="my-4 -ml-6">
-          <!-- <router-link :to="{ name: 'grid' }" class="py-2 ml-6 text-gray-800 hover:text-blue-500"
-            >Grid</router-link
-          > -->
+          <router-link
+            :to="{ name: 'spacing' }"
+            class="py-2 ml-6 text-gray-800 hover:text-blue-500"
+          >
+            Spacing
+          </router-link>
+          <router-link :to="{ name: 'grid' }" class="py-2 ml-6 text-gray-800 hover:text-blue-500">
+            Grid
+          </router-link>
           <router-link
             :to="{ name: 'calculator' }"
             class="py-2 ml-6 text-gray-800 hover:text-blue-500"
-            >Golden Calculator</router-link
           >
+            Calculator
+          </router-link>
           <a
             href="https://github.com/truefrontier/tailwindcss-golden-ratio"
             target="_blank"
