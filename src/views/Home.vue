@@ -59,8 +59,8 @@
             >Golden Ratio Tailwind CSS plugin</a
           >
           will allow you to use the utilities and examples shown on our
-          <router-link :to="{ name: 'spacing' }">Spacing</router-link> and
-          <router-link :to="{ name: 'grid' }">Grid</router-link> pages. Find
+          <router-link class="link" :to="{ name: 'spacing' }">Spacing</router-link> and
+          <router-link class="link" :to="{ name: 'grid' }">Grid</router-link> pages. Find
           <a
             href="https://github.com/truefrontier/tailwindcss-golden-ratio"
             target="_blank"
