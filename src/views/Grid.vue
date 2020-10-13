@@ -77,55 +77,55 @@
         </p>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-6">6</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-6">6</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-5">5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-5">5</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-1">1</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-1">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-1">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-1">1</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-1">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-1">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-1">1</div>
         <div class="bg-gray-400 py-3 w-grp-1">1</div>
       </div>
 
@@ -137,38 +137,38 @@
         combined them into one div that's double the width.
       </p>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-6">6</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-6">6</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-5">5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-5">5</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-4">double-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-4">double-4</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
         <div class="bg-gray-400 py-3 w-grp-double-3">double-3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-3">double-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-3">double-3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-2">double-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-2">double-2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-3">double-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-3">double-3</div>
         <div class="bg-gray-400 py-3 w-grp-double-2">double-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-1">1</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-2">double-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-2">double-2</div>
         <div class="bg-gray-400 py-3 w-grp-double-2">double-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-double-1">double-1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-1">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-1">1</div>
       </div>
 
       <div class="row">
@@ -195,37 +195,37 @@
         </div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-6">half-6</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-6">half-6</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-3">half-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-3">half-3</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-5">half-5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-5">half-5</div>
         <div class="bg-gray-400 py-3 w-grp-half-4">half-4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-half-4">half-4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-4">half-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-4">half-4</div>
         <div class="bg-gray-400 py-3 w-grp-half-4">half-4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-3">half-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-3">half-3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-2">2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-2">2</div>
         <div class="bg-gray-400 py-3 w-grp-half-3">half-3</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-4">half-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-4">half-4</div>
         <div class="bg-gray-400 py-3 w-grp-half-3">half-3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-3">half-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-3">half-3</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-1">half-1</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-6">and so on...</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-6">and so on...</div>
         <div class="bg-gray-400 py-3 w-grp-half-6">and so on...</div>
       </div>
 
@@ -238,31 +238,31 @@
       </p>
 
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-4">half-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-4">half-4</div>
         <div class="bg-gray-400 py-3 w-grp-5">5</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-4">half-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-4">half-4</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-5">half-5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-5">half-5</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-5">half-5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-5">half-5</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-4">half-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-4">half-4</div>
         <div class="bg-gray-400 py-3 w-grp-half-4">half-4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-3">double-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-3">double-3</div>
         <div class="bg-gray-400 py-3 w-grp-2">2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-3">double-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-3">double-3</div>
         <div class="bg-gray-400 py-3 w-grp-half-3">half-3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-3">half-3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-3">half-3</div>
         <div class="bg-gray-400 py-3 w-grp-double-2">double-2</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-4">double-4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-4">double-4</div>
         <div class="bg-gray-400 py-3 w-grp-half-3">half-3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-1">half-1</div>
       </div>
 
@@ -286,20 +286,20 @@
         just short (pun intended). We use <code>.justify-between</code> to fill the space.
       </p>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-half-6">half-6</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
         <div class="bg-gray-400 py-3 w-grp-half-4">half-4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
         <div class="bg-gray-400 py-3 w-grp-1">w-1</div>
         <div class="bg-gray-400 py-3 w-grp-1">w-1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
       </div>
 
       <h2 class="font-brand font-bold mb-4 mt-8 text-gray-700 text-2xl leading-7 text-left">
@@ -311,21 +311,21 @@
         <code>.row</code> and <code>.flex-shrink-0</code> on the columns with set widths.
       </p>
       <div class="row bg-white mb-4 px-5 -mx-5 flex-no-wrap">
-        <div class="bg-gray-400 bg-opacity-75 flex-grow py-3">flex-grow</div>
+        <div class="bg-gray-400 bg-opacity-50 flex-grow py-3">flex-grow</div>
         <div class="bg-gray-400 py-3 w-grp-4">4</div>
       </div>
       <p class="mb-6 pt-double-1 leading-6 text-left">
         Or use <code>ml-auto</code> to offset and/or <code>mr-auto</code> to center column(s).
       </p>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-5 ml-auto">6 ml-auto</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-5 ml-auto">6 ml-auto</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4 ml-auto">5 ml-auto</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4 ml-auto">5 ml-auto</div>
         <div class="bg-gray-400 py-3 w-grp-3 mr-auto">4 mr-auto</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-5 ml-auto">6 ml-auto</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-5 ml-auto">6 ml-auto</div>
         <div class="bg-gray-400 py-3 w-grp-3 mr-auto">4 mr-auto</div>
       </div>
 
@@ -338,12 +338,12 @@
         <code>.justify-around</code> or <code>.justify-between</code> as needed.
       </p>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-6">half-6</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-6">half-6</div>
         <div class="bg-gray-400 py-3 w-grp-half-6">half-6</div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-around">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-2">double-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-double-2">double-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-2">double-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-double-2">double-2</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
         <div>
@@ -353,8 +353,8 @@
         </div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-around">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-4">4</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
         <div>
@@ -364,9 +364,9 @@
         </div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-5">half-5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-5">half-5</div>
         <div class="bg-gray-400 py-3 w-grp-half-5">half-5</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-5">half-5</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-5">half-5</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
         <div>
@@ -376,9 +376,9 @@
         </div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-3">3</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-3">3</div>
         <div class="bg-gray-400 py-3 w-grp-3">3</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
@@ -389,17 +389,17 @@
         </div>
       </div>
       <div class="row bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3 w-grp-half-2">half-2</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3 w-grp-half-2">half-2</div>
         <div class="bg-gray-400 py-3 w-grp-half-2">half-2</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
@@ -410,17 +410,17 @@
         </div>
       </div>
       <div class="grid grid-cols-12 gap-4 bg-white mb-4 px-5 -mx-5 justify-between">
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
-        <div class="bg-gray-400 bg-opacity-75 py-3">1</div>
+        <div class="bg-gray-400 bg-opacity-50 py-3">1</div>
         <div class="bg-gray-400 py-3">1</div>
       </div>
       <div class="row px-5 -mx-5 -mt-2 mb-4">
@@ -448,14 +448,14 @@
     <section class="container py-5 text-center text-gray-600">
       <h1 class="font-extrabold text-2xl leading-7 mb-4 text-gray-800 text-left">Vertical Rhythm Example</h1>
       <div class="row bg-white mb-4 px-5 -mx-5">
-        <div class="bg-gray-400 bg-opacity-75 w-grp-half-6">
+        <div class="bg-gray-400 bg-opacity-50 w-grp-half-6">
           <div class="bg-gray-500 my-4 leading-6 py-2">my-4 leading-6 py-2</div>
         </div>
-        <div class="bg-gray-400 bg-opacity-75 w-grp-half-6">
+        <div class="bg-gray-400 bg-opacity-50 w-grp-half-6">
           <div class="bg-gray-500 mb-4 leading-7">mb-4 leading-7</div>
           <div class="bg-gray-500 mt-2 leading-7">mt-2 leading-7</div>
         </div>
-        <div class="bg-gray-400 bg-opacity-75 w-grp-half-6"></div>
+        <div class="bg-gray-400 bg-opacity-50 w-grp-half-6"></div>
       </div>
     </section>
      -->
