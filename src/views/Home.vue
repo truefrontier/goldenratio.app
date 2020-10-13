@@ -12,7 +12,7 @@
     <section class="mt-9">
       <div class="container">
         <h1 class="font-brand">
-          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">What</span>
+          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">What Is</span>
           <span class="leading-7 text-3xl font-bold block">The Golden Ratio</span>
         </h1>
         <p class="mt-7">In it's simplest terms, the Golden Ratio is 1:1.61803398875...</p>
@@ -46,8 +46,8 @@
     <section class="mt-9">
       <div class="container">
         <h1 class="font-brand">
-          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">How</span>
-          <span class="leading-7 text-3xl font-bold block">To Get Started</span>
+          <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">How To</span>
+          <span class="leading-7 text-3xl font-bold block">Get Started</span>
         </h1>
         <p class="mt-7">
           Currently, our
@@ -73,6 +73,7 @@
           If you use the Alfred app, you can
           <a
             href="https://truefrontierapps.com/downloads/Golden-Ratio.alfredworkflow"
+            class="link"
             download
             target="_blank"
             rel="noopener"
@@ -85,7 +86,7 @@
         </p>
         <p class="mt-7">
           <strong>Have any feedback or ideas?</strong>
-          <a href="mailto:kevin@goldenratio.app" class="link">Email us</a>
+          <a href="mailto:kevin@goldenratio.app" class="link ml-4">Email us</a>
         </p>
       </div>
     </section>
