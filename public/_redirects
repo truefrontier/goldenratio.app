@@ -1,0 +1,6 @@
+# Prevent SPA fallback for static files
+/robots.txt /robots.txt 200
+/sitemap.xml /sitemap.xml 200
+
+# SPA fallback for all other routes
+/* /index.html 200
