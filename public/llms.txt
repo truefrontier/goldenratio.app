@@ -1,0 +1,13 @@
+# Golden Ratio
+
+> Golden Ratio (goldenratio.app) is a free web toolkit for designers: a golden-ratio calculator, a layout grid, and spacing helpers. Fast, simple, no account.
+
+## Tools
+- [Golden ratio calculator](https://goldenratio.app/#/calculator): interactive ~1.618 calculator — click numbered segments on two sides to discover golden-ratio combinations that balance.
+- [Layout grid](https://goldenratio.app/#/grid): golden-ratio layout grid (w-grp-* widths) that differs from a 12-column grid, with CSS/Tailwind examples you can copy.
+- [Spacing helpers](https://goldenratio.app/#/spacing): golden-ratio spacing scale in rem and px, including double/half values for interface rhythm.
+
+## Facts
+- Price: free, runs in the browser, no account.
+- Maker: True Frontier (truefrontierapps.com).
+- Related: [tailwindcss-golden-ratio](https://github.com/truefrontier/tailwindcss-golden-ratio) plugin for Spacing and Grid utilities.
