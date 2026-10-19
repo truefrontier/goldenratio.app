@@ -48,10 +48,10 @@
     </section>
     <section class="mt-9">
       <div class="container">
-        <h1 class="font-brand">
+        <h2 class="font-brand">
           <span class="text-lg font-extrabold text-blue-600 uppercase tracking-wider">How To</span>
           <span class="leading-7 text-3xl font-bold block">Get Started</span>
-        </h1>
+        </h2>
         <p class="mt-7">
           Currently, our
           <a
