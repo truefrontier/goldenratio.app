@@ -1,4 +1,5 @@
 <template>
+  <!-- Mirrored as static pre-mount HTML in public/index.html; keep the two in sync. -->
   <div class="Header">
     <div class="container mt-7">
       <div class="flex flex-wrap items-center justify-between">
@@ -13,7 +14,7 @@
               </div>
             </div>
           </div>
-          <h1 class="text-blue-600 font-bold font-brand text-4xl leading-7">Golden Ratio</h1>
+          <div class="text-blue-600 font-bold font-brand text-4xl leading-7">Golden Ratio</div>
           <!-- <div class="text-gray-800 px-5 text-3xl font-brand opacity-25">+</div>
           <svg-logo class="h-7 w-auto"></svg-logo> -->
         </div>

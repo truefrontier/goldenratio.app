@@ -57,7 +57,38 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <!-- Static copy of src/components/app/Header.vue so the server HTML has an <h1> and the
+           header doesn't move when Vue mounts (mount replaces #app). Keep in sync with Header.vue.
+           The brand is the <h1> only here; once mounted, each view renders its own single <h1>. -->
+      <div class="Header">
+        <div class="container mt-7">
+          <div class="flex flex-wrap items-center justify-between">
+            <div class="flex items-center cursor-pointer whitespace-no-wrap">
+              <div class="flex mr-5">
+                <div class="w-7 h-7 bg-blue-700 rounded overflow-hidden shadow-lg">
+                  <div class="w-6 h-6 bg-blue-500 rounded-br">
+                    <div class="w-5 h-5 bg-blue-400 rounded-br-sm"></div>
+                  </div>
+                </div>
+              </div>
+              <h1 class="text-blue-600 font-bold font-brand text-4xl leading-7">Golden Ratio</h1>
+            </div>
+            <div class="my-4 -ml-6"
+              ><a href="#/spacing" class="py-2 ml-6 text-gray-800 hover:text-blue-500"> Spacing </a
+              ><a href="#/grid" class="py-2 ml-6 text-gray-800 hover:text-blue-500"> Grid </a
+              ><a href="#/calculator" class="py-2 ml-6 text-gray-800 hover:text-blue-500"> Calculator </a
+              ><a
+                href="https://github.com/truefrontier/tailwindcss-golden-ratio"
+                target="_blank"
+                rel="noopener"
+                class="py-2 ml-6 text-gray-800 hover:text-blue-500"
+                ><i class="fa fa-github fa-lg"></i> Github </a
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
