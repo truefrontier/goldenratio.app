@@ -35,7 +35,7 @@
             Calculator
           </router-link>
           <a
-            href="https://github.com/truefrontier/tailwindcss-golden-ratio"
+            href="https://github.com/truefrontier/goldenratio.app"
             target="_blank"
             rel="noopener"
             class="py-2 ml-6 text-gray-800 hover:text-blue-500"
