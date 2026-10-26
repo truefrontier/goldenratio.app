@@ -36,7 +36,7 @@
 </template>
 
 <script>
-const MCP_URL = 'https://goldenratio-mcp.fly.dev/mcp';
+const MCP_URL = 'https://mcp.goldenratio.app/mcp';
 const TERMS_URL = 'https://github.com/truefrontier/goldenratio-mcp#hosted-service';
 
 export const MCP_INSTRUCTIONS = `Install the goldenratio.app MCP server so you can use its golden-ratio design tools: the Golden Calculator, the golden spacing scale, the golden grid widths, the CSS variables and the tailwindcss-golden-ratio plugin setup.
